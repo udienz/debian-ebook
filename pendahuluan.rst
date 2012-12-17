@@ -55,7 +55,7 @@ yang banyak digunakan jika bermain pada lingkungan mode teks (ls, mv, mkdir,
 head, sort, wc, cat, less, mtools, tar, textutils, gzip, time,wget, emacs, gcc,
 gphoto, binutils, bash, awk, gtk +, aspell, gdb, gnumeric, dll).
 Daftar paket software yang dikembangkan oleh GNU Project dapat dilihat di
-website `GNU Project <http://www.gnu.org/software/software.html>`_.
+website `GNU Project`_.
 
 Linux kernel
 ------------
@@ -191,6 +191,9 @@ produk software). Free software diartikan sebagai sebuah kebebasan dalam
 menyalin, mendistribusikan, dan memodifikasi kode sumber tanpa adanya
 batasan dari siapa pun juga.
 
+.. Note::
+	``Free`` disini bukan berarti hanya gratis, namun juga diartikan bebas
+	
 Aspek lain dari sebuah aplikasi open source adalah pengembangan dari
 perangkat lunak tersebut lebih cepat dan lebih murah dalam segi pendanaannya
 karena lebih banyak orang yang terlibat. Aplikasi open source memberikan
@@ -243,7 +246,8 @@ adalah sistem operasi yang termasuk kernel dan perangkat lunak lainya.
 Namun Debian sedang dalam proses untuk menyediakan ke kernel lain, terutama 
 untuk `Hurd <http://www.gnu.org/software/hurd/hurd.html>`_ . Hurd adalah kumpulan
 server yang berjalan diatas sebuah microkernel (seperti March) yang diimplementasikan
-di fitur yang berbeda. Hurd dalah perangkat lunak yang dihasilkan oleh proyek `GNU project <http://www.gnu.org/>`_.
+di fitur yang berbeda. Hurd dalah perangkat lunak yang dihasilkan oleh proyek 
+`GNU project`_.
 
 Distro ini sering disebut-sebut sebagai pure GNU/Linux karena satu-satunya
 distro yang sampai saat ini masih menuruti asas free software. Debian sendiri
@@ -291,8 +295,8 @@ Debian mempunyai *social contract* yang dibuat oleh Ian Murdock, isi kontra sosi
    lisensinya yang konsisten dengan *Debian Free Software Guidelines*. Kami akan
    membuat sistem terbaik semampu kami, sehingga karya bebas ini dapat
    didistribusikan dan digunakan. Kami akan berkomunikasi seperti perbaikan bug,
-   kemajuan, dan permintaan pengguna kepada penulis hulu yang masuk ke dalam
-   sistem kami.
+   kemajuan, dan permintaan pengguna kepada pembuat hulu yang masuk ke dalam
+   sistem kami.  
  - Kami tidak akan menyembunyikan masalah
    Kami akan menyimpan basisdata bug terbuka untuk publik sepanjang waktu. Laporan
    berkas orang akan terlihat oleh orang lain.
@@ -317,6 +321,12 @@ Debian mempunyai *social contract* yang dibuat oleh Ian Murdock, isi kontra sosi
    CD mereka. Dengan demikian meskipun karya non-free bukan merupakan bagian dari
    Debian, kamu mendukung penggunaan mereka untuk menyediakan infratruktur untuk
    paket non-free (seperti bug tracking system dan milis).
+   
+.. Note::
+   	Pembuat hulu, yang berasal dari upstream author adalah orang yang membuat program
+   	dan memelihara paket itu. Sedangkan Debian Developer adalah orang yang membuat
+   	program dari hulu dapat dijalankan dengan baik di Debian.
+   	
    
 Mendapatkan Debian
 ------------------
@@ -376,11 +386,11 @@ Nama rilis Debian GNU/Linux diambil dari *toy story movies* seperti Bo,
 Hamm, slink, Potato, Woody, Sid, Sarge, Lenny, Squeeze, Wheezy, Jessie. 
 Sedangkan untuk status kestabilan
 paketnya terbagi atas versi stable, frozen, testing, unstable dan experimental.
-Rilis unstable diperuntukkan bagi paket-paket baru dan update-an paket dari upstream.
+Rilis unstable (sid) diperuntukkan bagi paket-paket baru dan update-an paket dari upstream.
 Sedangkan penggunaan paket terbaru dan tidak mengandung resiko dapat
 menggunakan rilis paket testing. Sedangkan rilis experimental, sesuai dengan namanya
 hanya untuk paket ujicoba. Beberapa paket melalui experimental dahulu biasanya dikarenakan
-problem migrasi pustaka sebelum pustaka tersebut benar-benar diupload ke unstable
+problem migrasi pustaka sebelum pustaka tersebut benar-benar diupload ke unstable.
 
 Waktu pengujian dari rilis unstable hingga mencapai testing dibutuhkan waktu
 sekitar beberapa minggu. Rilis paket frozen merupakan tahapan dimana paket-
@@ -428,11 +438,13 @@ GNU/Linux. [#]_:
 +--------+---------+------------+-------+---------------+-----------------------+
 
 Gambar berikut merupakan lokasi para pengembang debian GNU/Linux
-berdasarkan negara tempat para pengembang
+berdasarkan negara tempat para pengembang [#]_
 
 .. image:: images/dd-map.png
 
 .. [#] http://www.debian.org/News/2011/20110205a
 .. [#] Sumber http://en.wikipedia.org/wiki/Debian
 .. [#] Sumber http://en.wikipedia.org/wiki/File:Debian-package-cycl.svg
+.. [#] http://www.debian.org/devel/developers.loc
+.. _GNU Project: http://www.gnu.org/software/software.html
 
