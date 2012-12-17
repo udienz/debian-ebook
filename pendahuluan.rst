@@ -144,4 +144,139 @@ Beberapa penghargaan yang diperoleh Richard Matthew Stallman:
  - Doctor Honoris causa (HC) dari Sweden’s Royal Institute of Technology -
    tahun 1996
  - Electronic Frontier Foundation’s Pioneer Award - tahun 1998
+ - Yuri Rubinski Memorial Award - tahun 1999
+ - Doctor Honoris causa (HC) dari Universitas Glasgow - tahun 2001
+ - The Takeda Techno-Entreprenourship Award - tahun 2001
+ - National Academy of Engineering membership - tahun 2002
+ - Doctor Honoris causa (HC) dari Vrije Universiteit Brussel - tahun 2003
+
+Linus B. Torvalds
+=================
+
+Linus Torvalds lahir pada tanggal 28 Desember 1969 di Helsinki-Finland.
+Ayahnya bernama Torvalds. Saat berusia 10 tahun Linus Torvalds sudah mulai
+mencoba membuat program pada komputer Commodore VIC-20 milik sang
+kakek.
+
+Tahun 1991 Torvalds tercatat sebagai mahasiswa ilmu komputer di University
+of Helsinki, Finland. Di tahun yang sama Torvalds membeli sebuah komputer
+(PC) dengan MS-DOS sebagai sistem operasinya. Namun Linus Torvalds
+sendiri lebih menyukai menggunakan operation system (OS) UNIX yang
+digunakan di departemen ilmu komputer tempat ia menuntut ilmu.
+
+Linus Torvalds kemudian membuat base OS (Linux - red) varian UNIX untuk
+digunakan pada komputer miliknya. Setelah linux (Linus’s MINIX) rampung,
+Linus Torvalds kemudian mengirim email ke internet untuk memberikan
+informasi bahwa telah tersedia sebuah sistem operasi gratis beserta source
+codenya.
+
+Berkat kestabilan Linux yang jarang mengalami crash membuat para vendor
+perusahaan ternama mengumumkan rencananya untuk mendukung linux sebagai
+sistem operasi alternative MS-Windows.
+
+Beberapa penghargaan yang diperoleh Linus Torvalds:
+ - Nokia Foundation Award - tahun 1997
+ - Lifetime Achievement Award at Uniforum Pictures - tahun 1997
+
+Pengertian Free Software dan Open Source Software
+-------------------------------------------------
+
+Mungkin bagi kalangan linuxer tidak asing lagi dengan istilah free software dan
+open source software. Pada bagian ini penulis hanya akan menjelaskan sedikit
+tentang perbedaan antara free software dan open source software. Pengertian
+open source adalah sebuah software dimana kode sumbernya terbuka untuk
+publik sehingga semua orang dapat melihat, memodifikasi ulang. Sedangkan
+free software tidak dapat diartikan sebagai freeware (gratis dalam penggunaan
+produk software). Free software diartikan sebagai sebuah kebebasan dalam
+menyalin, mendistribusikan, dan memodifikasi kode sumber tanpa adanya
+batasan dari siapa pun juga.
+
+Aspek lain dari sebuah aplikasi open source adalah pengembangan dari
+perangkat lunak tersebut lebih cepat dan lebih murah dalam segi pendanaannya
+karena lebih banyak orang yang terlibat. Aplikasi open source memberikan
+beban kerja yang tidak terlampau berat kepada para programmer disebabkan
+adanya sharing tugas kepada setiap orang dalam jumlah yang banyak. Aplikasi-
+aplikasi software yang mereka hasilkan juga tidak dapat dipandang sebelah mata
+sebab kebanyakan hasil karya mereka benar-benar berkualitas tinggi akibat
+dukungan orang-orang dengan level kemampuan yang berbeda-beda yang
+bersatu dalam satu tim pengembang.
+
+Selain itu, bug-bug aplikasi software open source biasanya lebih cepat diketahui
+dibanding aplikasi close source dan penanganannya pun akan lebih cepat pula.
+
+Free Documentation
+------------------
+
+Pada bulan maret 2000, Richard M. Stallman bersama Eben Moglen – seorang
+professor dari Columbia Law School mengumumkan hak kepemilikan
+dokumentasi yang berlisensi “GNU Free Documentation License (GFDL)”.
+Sebuah dokumen GFDL haruslah bersifat transparan – dalam arti kata bahwa
+dokumen tersebut harus tersedia dalam format yang dapat dibaca dengan
+menggunakan free software seperti latex atau yang mendukung format XML.
+
+Distribusi GNU/Linux
+--------------------
+
+Bingung? pertanyaan ini sering muncul bagi para pemula yang ingin
+menggunakan sistem operasi (OS) GNU/Linux. Begitulah sedikit gambaran
+tentang anggapan orang-orang karena banyak distribusi/distro Linux. Mengapa
+sampai banyak varian Linux yang ada saat ini?, hal ini disebabkan karena
+sifatnya yang free software-open source alias kebebasan dan kode programnya
+terbuka untuk publik sehingga memungkinkan orang untuk membuat distribusi
+masing-masing.
+
+Debian GNU/Linux
+----------------
+
+Distro GNU/Linux ini berdiri pada tanggal 16 agustus 1993 yang diciptakan
+oleh Ian Murdock. Nama Debian ini diambil dari penyatuan dua nama yakni
+Debra dan Ian Murdock. Debra adalah istri Ian Murdock – sang pembuat distro
+Debian GNU/linux.
+
+Distro ini sering disebut-sebut sebagai pure GNU/Linux karena satu-satunya
+distro yang sampai saat ini masih menuruti asas free software. Debian sendiri
+memiliki sistem pemaketan sendiri (*.deb). Paket-paket yang akan dipaketkan
+ke dalam distro debian haruslah menuruti Debian Free Software Guidelines.
+
+Selain itu, paket-paket tersebut harus melalui 3 fase penyeleksian paket yakni
+stabel, testing, dan unstable. Untuk melewati ke tiga fase tersebut, sampai
+mendapatkan predikat software stable biasanya memakan waktu yang cukup
+lama. Patut untuk diketahui bahwa saat ini versi debian baru mencapai versi 3.0
+padahal distro ini telah berdiri sebelum distro RedHat ataupun SuSE. Interval
+waktu dari satu rilis ke rilis berikutnya biasanya memerlukan waktu sekitar
+empat tahunan.
+
+Isu yang banyak didengungkan orang terhadap distro ini adalah masalah
+kestabilan, sehingga tidak mengherankan jika distro ini banyak digunakan
+sebagai dasar pembuatan distro lain.
+Berikut ini beberapa distro turunan Debian GNU/Linux yang dapat anda lihat di
+`situs resmi Debian <http://www.debian.org/misc/children-distros>`_:
+
+ - `Demo Linux <http://www.demolinux.org)>`_
+   Merupakan distro GNU/Linux yang dapat dijalankan tanpa instalasi ataupun
+   partisi hardisk.
+ - `Gibraltar <http://www.gibraltar.vianova.at>`_
+   Merupakan distro yang khusus diperuntukkan untuk firewall/router
+ - `Knoppix <http://www.knopper.net/knoppix/index-en.html>`_
+   Distro ini salah distro yang banyak digunakan oleh pengguna GNU/Linux
+   karena kemudahan dalam pemakainnya serta tidak perlu melakukan instalasi.
+   Selain itu, dengan distro ini anda dapat meng-hardisk-kan knoppix. Dukungan
+   hardware juga sangat lengkap sehingga distro ini sangat bagus untuk digunakan
+ - `Libranet <http://www.libranet.com>`_
+   Distro ini memaketkan paketnya dengan kemudahan yang diberikan dalam hal
+   instalasi.
+ - Linex
+   Distro Linex dikembangkan oleh “the regional goverment of Extramadura
+   (Spain)” dengan tujuan untuk memigrasikan seluruh operation system. Distro ini
+   khusus ditujukan untuk keperluan perkantoran, dan bisnis.
+ - `Stromix <http://www.stromix>`_
+   Para pengembang distro Stromix mengklaim distro buatannya sebagai distribusi
+   GNU/Linux yang sangat stabil dan aman.
+ - `Ubuntu <http://www.ubuntu.com>`_
+   Ubuntu merupakan turunan dari Debian yang mempunyai banyak pengguna, hal ini dikarenakan
+   filosofi Ubuntu yang menganut sistem "just work". Dengan paham tersebut, Ubuntu lebih
+   memanjakan pengguna.
+ - `BlankOn <http://www.blankonlinux.or.id>`_
+   BlankOn adalah distro lokal turunan debian yang mengusung konten lokal Indonesia.
+
 
