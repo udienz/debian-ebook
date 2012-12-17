@@ -235,7 +235,7 @@ Debian GNU/linux.
 
 Distro ini sering disebut-sebut sebagai pure GNU/Linux karena satu-satunya
 distro yang sampai saat ini masih menuruti asas free software. Debian sendiri
-memiliki sistem pemaketan sendiri (*.deb). Paket-paket yang akan dipaketkan
+memiliki sistem pemaketan sendiri (\*.deb). Paket-paket yang akan dipaketkan
 ke dalam distro debian haruslah menuruti Debian Free Software Guidelines.
 
 Selain itu, paket-paket tersebut harus melalui 3 fase penyeleksian paket yakni
@@ -274,9 +274,75 @@ Berikut ini beberapa distro turunan Debian GNU/Linux yang dapat anda lihat di
    GNU/Linux yang sangat stabil dan aman.
  - `Ubuntu <http://www.ubuntu.com>`_
    Ubuntu merupakan turunan dari Debian yang mempunyai banyak pengguna, hal ini dikarenakan
-   filosofi Ubuntu yang menganut sistem "just work". Dengan paham tersebut, Ubuntu lebih
+   filosofi Ubuntu yang menganut sistem *just work*. Dengan paham tersebut, Ubuntu lebih
    memanjakan pengguna.
  - `BlankOn <http://www.blankonlinux.or.id>`_
    BlankOn adalah distro lokal turunan debian yang mengusung konten lokal Indonesia.
 
+Rilis Debian GNU/Linux
+----------------------
+
+Nama rilis Debian GNU/Linux diambil dari *toy story movies* seperti Bo,
+Hamm, slink, Potato, Woody, Sid, Sarge, Lenny, Squeeze, Wheezy, Jessie. 
+Sedangkan untuk status kestabilan
+paketnya terbagi atas versi stable, frozen, testing, unstable dan experimental.
+Rilis unstable diperuntukkan bagi paket-paket baru dan update-an paket dari upstream.
+Sedangkan penggunaan paket terbaru dan tidak mengandung resiko dapat
+menggunakan rilis paket testing. Sedangkan rilis experimental, sesuai dengan namanya
+hanya untuk paket ujicoba. Beberapa paket melalui experimental dahulu biasanya dikarenakan
+problem migrasi pustaka sebelum pustaka tersebut benar-benar diupload ke unstable
+
+Waktu pengujian dari rilis unstable hingga mencapai testing dibutuhkan waktu
+sekitar beberapa minggu. Rilis paket frozen merupakan tahapan dimana paket-
+paket software yang telah melewati rilis testing akan digabungkan ke dalam
+distro Debian GNU/Linux untuk diuji kinerja paket softwarenya dan
+memastikan tidak adanya bug kritikal pada paket software tersebut. Pada momen frozen ini
+Debian akan dirilis dalam waktu dekat. Semua paket tidak bisa masuk ke testing kecuali
+paket tersebut diupload untuk menyelesaikan bug kritikal atau RC. Gambar berikut adalah
+ilustrasi alur rilis Debian [1]_:
+
+.. image:: images/Debianpackagecycl.png
+
+Tahapan selanjutnya adalah rilis paket stable dimana waktu pengujian rilis ini
+membutuhkan waktu sekitar 8 bulan atau lebih. Berikut ini rilis distro Debian
+GNU/Linux. [2]_:
+
++--------+---------+------------+-------+---------------+-----------------------+
+| Version|Code name|Release date|Ports	|Packages	|Supported until	|
++========+=========+============+=======+===============+=======================+
+|+1.1	 |buzz	   |1996-06-17	|1    	|474		|1996-09		|
++--------+---------+------------+-------+---------------+-----------------------+
+|1.2	 |rex	   |1996-12-12	|1	|848		|1996			|
++--------+---------+------------+-------+---------------+-----------------------+
+|1.3	 |bo	   |1997-06-05	|1	|974		|1997			|
++--------+---------+------------+-------+---------------+-----------------------+
+|2.0	 |hamm	   |1998-07-24	|2	| ~ 1,500	|1998			|
++--------+---------+------------+-------+---------------+-----------------------+
+|2.1	 |slink	   |1999-03-09	|4	| ~ 2,250	|2000-12		|
++--------+---------+------------+-------+---------------+-----------------------+
+|2.2	 |potato   |2000-08-15	|6	| ~ 3,900	|2003-04		|
++--------+---------+------------+-------+---------------+-----------------------+
+|3.0	 |woody	   |2002-07-19	|11	| ~ 8,500	|2006-08		|
++--------+---------+------------+-------+---------------+-----------------------+
+|3.1	 |sarge	   |2005-06-06	|11	| ~ 15,400	|2008-04		|
++--------+---------+------------+-------+---------------+-----------------------+
+|4.0	 |etch	   |2007-04-08	|11	| ~ 18,000	|2010-02-15		|
++--------+---------+------------+-------+---------------+-----------------------+
+|5.0     |lenny    |2009-02-14	|12	| ~ 23,000	|2012-02-06		|
++--------+---------+------------+-------+---------------+-----------------------+
+|6.0     |squeeze  |2011-02-06  |9+2[A]	| ~ 29,000	|TBA			|
++--------+---------+------------+-------+---------------+-----------------------+
+|7.0     |wheezy   |TBA		|TBA	|TBA	  	|TBA			|
++--------+---------+------------+-------+---------------+-----------------------+
+|8.0	 |jessie   |TBA		|TBA	|TBA	 	|TBA			|
++--------+---------+------------+-------+---------------+-----------------------+
+
+Gambar berikut merupakan lokasi para pengembang debian GNU/Linux
+berdasarkan negara tempat para pengembang
+
+.. image:: images/dd-map.png
+
+
+.. [1] Sumber http://en.wikipedia.org/wiki/Debian
+.. [2] Sumber http://en.wikipedia.org/wiki/File:Debian-package-cycl.svg
 

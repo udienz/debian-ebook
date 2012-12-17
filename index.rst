@@ -11,14 +11,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   pertamax
    pendahuluan
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+   instalasi
