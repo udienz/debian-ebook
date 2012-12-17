@@ -228,10 +228,22 @@ masing-masing.
 Debian GNU/Linux
 ----------------
 
+
 Distro GNU/Linux ini berdiri pada tanggal 16 agustus 1993 yang diciptakan
 oleh Ian Murdock. Nama Debian ini diambil dari penyatuan dua nama yakni
 Debra dan Ian Murdock. Debra adalah istri Ian Murdock – sang pembuat distro
 Debian GNU/linux.
+
+Sistem Debian sekarang ini menggunakan kernel `Linux <http://www.kernel.org/>`_
+dan kernel `FreeBSD <http://www.freebsd.org/>`_. Linux adalah bagian dari 
+perangkat lunak yang dimulai oleh `Linus Torvalds <http://www.cs.helsinki.fi/u/torvalds/>`_
+dan didukung oleh ribuan programmer di seluruh dunia. Sedangkan FreeBSD 
+adalah sistem operasi yang termasuk kernel dan perangkat lunak lainya.
+
+Namun Debian sedang dalam proses untuk menyediakan ke kernel lain, terutama 
+untuk `Hurd <http://www.gnu.org/software/hurd/hurd.html>`_ . Hurd adalah kumpulan
+server yang berjalan diatas sebuah microkernel (seperti March) yang diimplementasikan
+di fitur yang berbeda. Hurd dalah perangkat lunak yang dihasilkan oleh proyek `GNU project <http://www.gnu.org/>`_.
 
 Distro ini sering disebut-sebut sebagai pure GNU/Linux karena satu-satunya
 distro yang sampai saat ini masih menuruti asas free software. Debian sendiri
@@ -249,6 +261,84 @@ empat tahunan.
 Isu yang banyak didengungkan orang terhadap distro ini adalah masalah
 kestabilan, sehingga tidak mengherankan jika distro ini banyak digunakan
 sebagai dasar pembuatan distro lain.
+
+Sistem operasi universal
+------------------------
+
+Dalam perjalananya, debian merupakan satu-satunya distro yang
+dapat mendukung 11 +2 arsitektur antara lain 2-bit PC / Intel 
+IA-32 (i386), 64-bit PC / Intel EM64T / x86-64 (amd64), Motorola/
+IBM PowerPC (powerpc), Sun/Oracle SPARC (sparc), MIPS (mips (big-
+endian) and mipsel (little-endian)), Intel Itanium (ia64), IBM 
+S/390 (s390), ARM EABI (armel), ARM hard float (armfh) dan s390x. 
+Tambahan dua arsitektur lagi adalah kfreebsd-i386 dan kfreebsd-
+amd64 yang menggunakan kernel freeBSD [#]_.
+
+"Social contract" dengan komunitas perangkat lunak terbuka
+----------------------------------------------------------
+
+Debian mempunyai *social contract* yang dibuat oleh Ian Murdock, isi kontra sosial ini adalah:
+
+ - Debian akan 100% terbuka
+   Kami menyediakan pedoman yang kita gunakan untuk menentukan apakah suatu
+   pekerjaan itu bebas terdapat dalam *Debian Free Software Guidelines*. Kami
+   berjanji bahwa sistem debian dan semua komponennya akan selalu terbuka sesuai
+   debian pedoman ini. Kami akan mendukung orang yang membuat atau menggunakan 
+   karya terbuka atau non-bebas pada Debian. Kami tidak akan pernah membuat
+   kebutuhan sistem untuk menggunakan komponen non-bebas.
+ - Kami akan memberikan (Debian) kembali ke komunitas sumber terbuka
+   Ketika kami menulis komponen dalam sistem Debian, kami akan memberikan
+   lisensinya yang konsisten dengan *Debian Free Software Guidelines*. Kami akan
+   membuat sistem terbaik semampu kami, sehingga karya bebas ini dapat
+   didistribusikan dan digunakan. Kami akan berkomunikasi seperti perbaikan bug,
+   kemajuan, dan permintaan pengguna kepada penulis hulu yang masuk ke dalam
+   sistem kami.
+ - Kami tidak akan menyembunyikan masalah
+   Kami akan menyimpan basisdata bug terbuka untuk publik sepanjang waktu. Laporan
+   berkas orang akan terlihat oleh orang lain.
+ - Prioritas kami adalah pengguna dan perangkat lunak terbuka
+   Kami akan dipandu oleh kebutuhan pengguna dan komunitas perangkat lunak
+   terbuka. Kami akan menempatkan kepentingan mereka dalam prioritas utama kami.
+   Kami akan mendukung kebutuhan dari pengguna untuk berjalan di berbagai macam
+   lingkungan komputasi. Kami tidak akan keberatan untuk karya non-bebas yang
+   dimaksudkan untuk digunakan di sistem Debian, atau mencoba untuk membuat
+   biaya untuk orang-orang yang membuat atau menggunakan karya tersebut. Kami
+   akam memperbolehkan orang lain untuk membuat distribusi yang mengandung sistem
+   Debian dan karya lain, tanpa biaya dari kami. Dalam kelanjutan hal tersebut,
+   kami akan menyediakan sistem integrated dari bahan berkualitas tinggi dengan
+   tanpa batasan hukum yang akan mencegah pengguna ke sistem.
+ - Karya yang tidak memenuhi standard perangkat lunak kami,
+   Kami mengakui bahwa beberapa pengguna kami memerlukan karya-karya yang tidak
+   sesuai dengan *Debian Free Software Guidelinues*. Kami telah menciptakan
+   area contrib dan non-free dalam arsip kami untuk karya-karya ini. Paket dalam
+   area ini bukan bagian dari sistem Debian, meskipun telah diatur untuk digunakan
+   di Debian. Kami mendorong produsen CD untuk membaca lisensi dari paket di
+   area ini untuk menentukan apakah mereka dapat mendistribusikan paket pada
+   CD mereka. Dengan demikian meskipun karya non-free bukan merupakan bagian dari
+   Debian, kamu mendukung penggunaan mereka untuk menyediakan infratruktur untuk
+   paket non-free (seperti bug tracking system dan milis).
+   
+Mendapatkan Debian
+------------------
+
+Untuk informasi tentang bagaimana mengunduh Dbeian GNU/Linux dari internet
+atau dari pembelian resmi CD Debian, silakan lihat `halaman web penyaluran 
+<http://www.debian.org/distrib/>`_. Daftar dari `cermin Debian 
+<http://www.debian.org/distrib/ftplist>`_ berisikan daftar lengkap cermin Debian,
+sehingga anda dapat dengan mudah mencari yang terdekat dengan anda.
+
+Debian dapat di upgrade dengan mudah setelah pemasangan. Jika anda  menginnginkan,
+Prosedur instalasi akan membantu membangun sistem sehingga anda dapat mengupgrade
+setelah instalasi selesai.
+
+Di Indonesia, terdapat banyak cermin CD Debian seperti:
+
+- Kambing UI, http://kambing.ui.ac.id/iso/debian/
+- Datautama, http://kartolo.sby.datautama.net.id/debian-cd/
+
+Turunan Debian
+--------------
+
 Berikut ini beberapa distro turunan Debian GNU/Linux yang dapat anda lihat di
 `situs resmi Debian <http://www.debian.org/misc/children-distros>`_:
 
@@ -299,13 +389,13 @@ distro Debian GNU/Linux untuk diuji kinerja paket softwarenya dan
 memastikan tidak adanya bug kritikal pada paket software tersebut. Pada momen frozen ini
 Debian akan dirilis dalam waktu dekat. Semua paket tidak bisa masuk ke testing kecuali
 paket tersebut diupload untuk menyelesaikan bug kritikal atau RC. Gambar berikut adalah
-ilustrasi alur rilis Debian [1]_:
+ilustrasi alur rilis Debian [#]_:
 
 .. image:: images/Debianpackagecycl.png
 
 Tahapan selanjutnya adalah rilis paket stable dimana waktu pengujian rilis ini
 membutuhkan waktu sekitar 8 bulan atau lebih. Berikut ini rilis distro Debian
-GNU/Linux. [2]_:
+GNU/Linux. [#]_:
 
 +--------+---------+------------+-------+---------------+-----------------------+
 | Version|Code name|Release date|Ports	|Packages	|Supported until	|
@@ -342,7 +432,7 @@ berdasarkan negara tempat para pengembang
 
 .. image:: images/dd-map.png
 
-
-.. [1] Sumber http://en.wikipedia.org/wiki/Debian
-.. [2] Sumber http://en.wikipedia.org/wiki/File:Debian-package-cycl.svg
+.. [#] http://www.debian.org/News/2011/20110205a
+.. [#] Sumber http://en.wikipedia.org/wiki/Debian
+.. [#] Sumber http://en.wikipedia.org/wiki/File:Debian-package-cycl.svg
 

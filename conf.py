@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Catatan Debian'
-authors = 'Azkari Azikin'
+project = u'Debian GNU/Linux Tutorial'
+authors = 'Azkari Azikin, Mahyuddin Susanto'
 copyright = u'2012, '+authors
 
 # The version info for the project you're documenting, acts as replacement for
@@ -107,7 +107,7 @@ html_theme_path = ['themes']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = 'Debian GNU/Linux Tutorial'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -128,7 +128,7 @@ html_static_path = ['_static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-#html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%b %d, %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -151,13 +151,13 @@ html_static_path = ['_static']
 #html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
-#html_show_sourcelink = True
+html_show_sourcelink = False
 
 # If true, "Created using Sphinx" is shown in the HTML footer. Default is True.
-#html_show_sphinx = True
+html_show_sphinx = True
 
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
-#html_show_copyright = True
+html_show_copyright = True
 
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
@@ -187,8 +187,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'CatatanDebian.tex', u'Catatan Debian Documentation',
-   u'Azkari Azikin', 'manual'),
+  ('index', 'CatatanDebian.tex', u'Debian GNU/Linux Tutorial',
+   u'Azkari Azikin + Tim Debian Indonesia', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -203,7 +203,7 @@ latex_documents = [
 #latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+latex_show_urls = True
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
@@ -217,8 +217,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'catatandebian', u'Catatan Debian Documentation',
-     [u'Azkari Azikin'], 1)
+    ('index', 'catatandebian', u'Debian GNU/Linux Tutorial',
+     [u'Azkari Azikin + Tim Debian Indonesia'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -231,8 +231,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'CatatanDebian', u'Catatan Debian Documentation',
-   u'Azkari Azikin', 'CatatanDebian', 'One line description of project.',
+  ('index', 'CatatanDebian', u'Debian GNU/Linux Tutorial',
+   u'Azkari Azikin + Tim Debian Indonesia', 'CatatanDebian', 'One line description of project.',
    'Miscellaneous'),
 ]
 
