@@ -11,7 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   pertamax
-   pendahuluan
-   instalasi
-   pemasangan-paket
+   src/pertamax
+   src/pendahuluan
+   src/instalasi
+   src/pemasangan-paket

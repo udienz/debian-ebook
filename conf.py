@@ -65,7 +65,7 @@ release = '0.1rc1'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'README.rst']
 
 locale_dirs = ["po/"]
 gettext_compact = True
@@ -188,7 +188,7 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'CatatanDebian.tex', u'Debian GNU/Linux Tutorial',
-   u'Azkari Azikin + Tim Debian Indonesia', 'manual'),
+   u'Azkari Azikin + Mahyuddin Susanto', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -218,7 +218,7 @@ latex_show_urls = True
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'catatandebian', u'Debian GNU/Linux Tutorial',
-     [u'Azkari Azikin + Tim Debian Indonesia'], 1)
+     [u'Azkari Azikin + Mahyuddin Susanto'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -232,7 +232,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'CatatanDebian', u'Debian GNU/Linux Tutorial',
-   u'Azkari Azikin + Tim Debian Indonesia', 'CatatanDebian', 'One line description of project.',
+   u'Azkari Azikin + Mahyuddin Susanto', 'CatatanDebian', 'Tutorial Debian GNU/Linux Wheezy.',
    'Miscellaneous'),
 ]
 
@@ -244,3 +244,45 @@ texinfo_documents = [
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
+
+# -- Options for Epub output ---------------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = u'Debian Install Howto'
+epub_author = u'Mahyuddin Susanto'
+epub_publisher = u'Mahyuddin Susanto'
+epub_copyright = u'2012, Mahyuddin Susanto'
+
+# The language of the text. It defaults to the language option
+# or en if the language is not set.
+#epub_language = ''
+
+# The scheme of the identifier. Typical schemes are ISBN or URL.
+#epub_scheme = ''
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#epub_identifier = ''
+
+# A unique identification for the text.
+#epub_uid = ''
+
+# A tuple containing the cover image and cover page html template filenames.
+#epub_cover = ()
+
+# HTML files that should be inserted before the pages created by sphinx.
+# The format is a list of tuples containing the path and title.
+#epub_pre_files = []
+
+# HTML files shat should be inserted after the pages created by sphinx.
+# The format is a list of tuples containing the path and title.
+#epub_post_files = []
+
+# A list of files that should not be packed into the epub file.
+#epub_exclude_files = []
+
+# The depth of the table of contents in toc.ncx.
+#epub_tocdepth = 3
+
+# Allow duplicate toc entries.
+#epub_tocdup = True

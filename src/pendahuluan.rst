@@ -384,13 +384,24 @@ Rilis Debian GNU/Linux
 
 Nama rilis Debian GNU/Linux diambil dari *toy story movies* seperti Bo,
 Hamm, slink, Potato, Woody, Sid, Sarge, Lenny, Squeeze, Wheezy, Jessie. 
-Sedangkan untuk status kestabilan
-paketnya terbagi atas versi stable, frozen, testing, unstable dan experimental.
-Rilis unstable (sid) diperuntukkan bagi paket-paket baru dan update-an paket dari upstream.
+Sedangkan untuk status kestabilan paketnya terbagi atas versi stable, 
+frozen, testing, unstable dan experimental.
+
+Debian menggunakan nama lain untuk penyebutan sebelum rilis, seperti sid
+unstable, testing untuk wheezy, stable untuk squeeze, oldstable untuk lenny.
+Setelah rilis, nama lain akan bergeser, jika wheezy dirilis hari ini maka,
+wheezy akan menjadi stable, squeeze akan menjadi oldstable, jessie menjadi
+testing. Khusus untuk sid, akan selalu digunakan untuk nama lain unstable.
+
+Rilis unstable (sid) diperuntukkan bagi paket-paket baru dan update-an 
+paket dari upstream.
+
 Sedangkan penggunaan paket terbaru dan tidak mengandung resiko dapat
-menggunakan rilis paket testing. Sedangkan rilis experimental, sesuai dengan namanya
-hanya untuk paket ujicoba. Beberapa paket melalui experimental dahulu biasanya dikarenakan
-problem migrasi pustaka sebelum pustaka tersebut benar-benar diupload ke unstable.
+menggunakan rilis paket testing. Sedangkan rilis experimental, sesuai 
+dengan namanya hanya untuk paket ujicoba. Beberapa paket melalui 
+experimental dahulu biasanya dikarenakan
+problem migrasi pustaka sebelum pustaka tersebut benar-benar diupload ke 
+unstable.
 
 Waktu pengujian dari rilis unstable hingga mencapai testing dibutuhkan waktu
 sekitar beberapa minggu. Rilis paket frozen merupakan tahapan dimana paket-
