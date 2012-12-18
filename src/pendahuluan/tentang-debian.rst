@@ -268,7 +268,8 @@ Debian Developer
 
 Debian Developer adalah anggota proyek Debian resmi dan berhak mendapatkan
 akses penuh proyek Debian. Beberapa fasilitas Debian Developer adalah:
- - Dapat mengikuti pengumutan suara yang dilakukan oleh proyek Debian.
+
+- Dapat mengikuti pengumutan suara yang dilakukan oleh proyek Debian.
  - Mendapatkan akses ke beberapa mesin Debian.
  - Mendapatkan email debian.org.
  - Dapat mengunggah paketnya langsung tanpa melalui perantara.
@@ -278,6 +279,23 @@ Gambar berikut merupakan lokasi para pengembang debian GNU/Linux
 berdasarkan negara tempat para pengembang [#]_
 
 .. image:: ../images/dd-map.png
+
+.. Note::
+    Sayangnya, hingga sekarang belum ada satupun dari warga Indonesia yang
+    menjadi Debian Developer.
+
+Debian Maintainer
+=================
+
+Umumnya pada tahap menjadi Debian Developer, seseorang akan menjadi Debian
+Maintainer dahulu, perbedaan mendasar dari keduanya adalah hak upload.
+Seorang Debian Maintainer **hanya** dapat mengunggah paketnya tanpa
+perantara, hal ini beda dengan Debian Developer yang dapat mengunggah
+**semua** paket meskipun bukan dirinya yang menjadi pengelola paket.
+
+.. Note::
+    Berbeda dengan Debian Developer, di Indonesia baru ada satu Debian 
+    Maintainer. 
 
 .. [#] http://www.debian.org/intro/about
 .. [#] http://www.debian.org/News/2011/20110205a
