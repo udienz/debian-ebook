@@ -9,7 +9,7 @@ Debian GNU/Linux Tutorial
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    src/pertamax
    src/pendahuluan
