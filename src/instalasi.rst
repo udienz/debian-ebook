@@ -1,6 +1,10 @@
-=======================
-Pemasangan sistem dasar
-=======================
+================
+Instalasi Debian 
+================
+
+Untuk menggunakan Debian, kita harus menginstall terlebih dahulu di
+komputer kita.
+
 
 Kebutuhan minimal
 --------------------
@@ -23,15 +27,55 @@ Sistem Pentium 4 1 GHz adalah rekomendasi minimum untuk sistem desktop.
 | dengan Desktop  | 128 megabytes | 512 megabytes     | 5 gigabytes|
 +-----------------+---------------+-------------------+------------+
 
-Catatan
--------
+Media Instalasi
+---------------
 
-Dalam tutorial ini kita menggunakan namahost server1.example.com dengan alamat
-IP 192.168.0.100 dan gateway 192.168.0.1. Pengaturan ini mungkin berbeda dengan
-anda, jadi anda butuh menggantinya dengan yang anda butuhkan.
+Debian mendukung instalasi dari berbagai media, ini sangat penting bagi
+beberapa orang yang mempunyai kepentingan berbeda dalam pemasangan.
 
-Untuk pemasangan, kita akan menggunakan CD netboot yang dapat diunduh di `Cermin CD Debian
-di Indonesia <http://kartolo.sby.datautama.net.id/debian-cd/current/amd64/iso-cd/debian-6.0.6-amd64-netinst.iso>`_
+CD/DVD
+~~~~~~
+
+Menggunakan CD/DVD sangat umum untuk melakukan instalasi, hampir semua merek
+CD/DVD sudah didukung oleh Debian, termasuk CD/DVD yang menggunakan ATA,
+USB, Firmware. Dalam distribusi CD/DVD Debian terdapat
+beberapa macam jenis CD/DVD Installer, yaitu:
+
+ - CD/DVD Installer umum: Berisikan paket-paket umum Debian, seperti paket
+   desktop, editor dan multimedia. Untuk instalasi Debian, kita hanya butuh
+   CD pertama atau DVD pertama untuk instalasi.
+ - CD Netinstall: Berisikan paket-paket minimal di Debian, jika kita
+   menggunakan media ini untuk instalasi, kita akan mendapatkan system yang
+   sangat bersih dan sedikit memakan harddsik.
+ - Bussiness card: Hampir sama dengan Netinstall, namun perbedaan terletak
+   pada tidak adanya sistem dasar. Jadi bila kita menggunakan media ini,
+   maka kita harus mempunyai koneksi internet untuk mengunduh paket paket
+   dasar.
+
+Silakan melihat direktori :ref:`situs penyedia CD
+Debian<mendapatkan-debian>` pada bab sebelumnya untuk memastikan.
+
+USB Flash Disk
+~~~~~~~~~~~~~~
+
+Instalasi melalui Flash disk sangat dimungkinkan untuk instalasi Debian,
+beberapa program menyediakan kemudahan untuk melakukan ini. Program tersebut
+adalah unetbootin. Unetbootin mendukung tidak hanya Debian, namun distro
+linux pada umumnya.
+
+Jaringan
+~~~~~~~~
+
+Debian juga mendukung metode instalasi melalui jaringan dengan bantuan TFTP
+dan PXE. 
+
+.. note::
+    Dalam tutorial ini kita menggunakan namahost server1.example.com dengan 
+    IP 192.168.0.100 dan gateway 192.168.0.1. Pengaturan ini mungkin 
+    berbeda dengan anda, jadi anda butuh menggantinya dengan yang anda 
+    butuhkan. Untuk pemasangan, kita akan menggunakan CD netboot yang dapat 
+    diunduh di `Cermin CD Debian
+    di Indonesia <http://kartolo.sby.datautama.net.id/debian-cd/current/amd64/iso-cd/debian-6.0.6-amd64-netinst.iso>`_
 
 Sistem dasar
 ------------

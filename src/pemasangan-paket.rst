@@ -8,6 +8,7 @@ biasanya berasal dari kode sumber dari upstream yang kemudian di atur
 sehingga dapat berjalan dengan baik di Debian. Di Debian menggunakan berkas
 dengan extensi \*.deb untuk paket yang langsung bisa diinstall. Adapun
 berkas lain yang dapat digunakan untuk instalasi debian adalah:
+
  - Berkas \*.tar.gz, \*.tar.bz2, \*.zip, biasanya berkas-berkas ini adalah
    berkas dari upstream yang berisikan kode sumber yang belum dimodifikasi.
  - Berkas \*.deb, berkas ini adalah berkas installer umum yang digunakan
@@ -41,6 +42,7 @@ namapaket_upstream.version-revisidebian.deb
 
 Contoh pada paket vlc, pada rilis wheezy mempunyai versi 2.0.3-4 yang
 berarti:
+
  - 2.0.3 adalah versi upstream
  - 4 adalah versi terahir revisi debian
 
