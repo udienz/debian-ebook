@@ -38,7 +38,7 @@ dengan ekstensi deb. Berikut format struktur paket software di Debian:
 namapaket_upstream.version-revisidebian.deb
 
 
-.. image :: images/package-version.png
+.. image :: ../images/package-version.png
 
 Contoh pada paket vlc, pada rilis wheezy mempunyai versi 2.0.3-4 yang
 berarti:

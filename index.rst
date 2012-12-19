@@ -14,4 +14,4 @@ Contents:
    src/pertamax
    src/pendahuluan
    src/instalasi
-   src/pemasangan-paket
+   src/manajemen-paket
