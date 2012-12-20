@@ -32,6 +32,17 @@ Untuk mengunduh silakan ketik::
 
 Kemudian sunting dan lakukan permintaan merge.
 
+Rujukan reStructuredText
+------------------------
+
+Berikut rujukan reStructuredText:
+
+ - `Quick reStructuredText <http://docutils.sourceforge.net/docs/user/rst/quickref.html>`_
+ - `reStructuredText Markup Specification <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_
+ - `Online reST to HTML conversion <http://www.tele3.cz/jbar/rest/rest.html>`_
+ - `Online reStructuredText editor <http://rst.ninjs.org/>`_
+
+
 Testing!
 --------
 
