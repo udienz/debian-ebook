@@ -97,8 +97,12 @@ Kemudian pilih lokasi anda:
 .. image:: images/install/3.png
 
 .. image:: images/install/4.png
+    :width: 550px
+    :height: 413px
 
 .. image:: images/install/5.png
+    :width: 550px
+    :height: 413px
 
 Jika anda memilih kombinasi bahasa dan lokasi yang tidak umum (dalam kasus saya, seperti
 ``bahasa inggris`` sebagai bahasa dan ``Indonesia``` sebagai lokasi), installer mungkin akan
@@ -110,6 +114,8 @@ harus memilih locale secara manual. Saya memilih ``en_US.UTF-8``:
 Silakan pilih desain papan ketik:
 
 .. image:: images/install/7.png
+    :width: 550px
+    :height: 413px
 
 Installer akan memeriksa CD, hardware anda dan mangatur jaringan dengan DHCP
 jika ada server DHCP di jaringan:
