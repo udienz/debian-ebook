@@ -15,3 +15,4 @@ Contents:
    src/pendahuluan
    src/instalasi
    src/manajemen-paket
+   src/linux-shell
