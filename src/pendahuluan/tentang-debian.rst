@@ -1,5 +1,3 @@
-.. index:: pendahuluan, mendapatkan-debian, tentang-debian, debian-developer
-
 Debian GNU/Linux
 ================
 
