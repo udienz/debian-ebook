@@ -1,6 +1,6 @@
-=====================
-Sistem File GNU/Linux
-=====================
+=======================
+Sistem Berkas GNU/Linux
+=======================
 
 Memahami File GNU/Linux
 -----------------------
@@ -24,6 +24,7 @@ binary), atau di direktori /sbin (singkatan dari system binaries).
 **Links:** Penunjuk ke file lain.
 
 **Directories:** Kumpulan file, links dan direktori lain.
+
 
 Memahami Nama File yang Digunakan GNU/Linux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -241,10 +242,94 @@ sistem operasi UNIX. Keuntungan dari sistem direktori ini adalah anda dapat
 memposisikan sebuah partisi sebagai sebuah file pada sistem. Berikut ini
 struktur direktori/file debian GNU/Linux:
 
++-----------------+----------------------------------------------------------------------+
+| **/**	          | Direktori *root*. Berisi seluruh file dan direktori lain.            |
++-----------------+----------------------------------------------------------------------+
+| **/bin**	  | File biner atau file executable yang dapat digunakan baik user biasa |
+|		  | ataupun user root.                                                   |
++-----------------+----------------------------------------------------------------------+
+| **/boot**	  | File-file yang dibutuhkan sistem saat booting, termasuk kernel.      |
++-----------------+----------------------------------------------------------------------+
+| **/cdrom**	  | Mounting point untuk cdrom. Jika sistem memilki 2 buah cdrom drive   |
+|		  | maka akan dikenali sebagai /cdrom2.                                  |
++-----------------+----------------------------------------------------------------------+
+| **/floppy**	  | Mounting point untuk floppy drive. Jika sistem memiliki 2 buah       |
+|		  | floppy drive maka akan dikenali sebagai /floppy2.                    |
++-----------------+----------------------------------------------------------------------+
+| **/dev**	  | Mendefinisikan perangkat keras hardisk, partisi, dan perangkat keras |
+|		  | lainnya. Direktori /dev juga berisi tool makedev untuk membuat       |
+|		  | device baru.                                                         |
++-----------------+----------------------------------------------------------------------+
+| **/etc** 	  | File konfigurasi sistem debian GNU/Linux seperti /etc/X11 untuk      |
+|		  | konfigurasi X Window.                                                |
++-----------------+----------------------------------------------------------------------+
+| **/home** 	  | Direktori home untuk user biasa. Sedangkan direktori home untuk user |
+|		  | root adalah /root.                                                   |
++-----------------+----------------------------------------------------------------------+
+| **/initrd**	  | File-file untuk RAM Disk GNU/Linux.                                  |
++-----------------+----------------------------------------------------------------------+
+| **/lib**	  | Pustaka program yang dibutuhkan untuk menjalankan sistem dan         |
+|		  | perintah dasar.                                                      |
++-----------------+----------------------------------------------------------------------+
+| **/lost+found** | File-file recovery                                                   |
++-----------------+----------------------------------------------------------------------+
+| **/mnt**	  | Sebuah folder tempat mount point device.                             |
++-----------------+----------------------------------------------------------------------+
+| **/proc**	  | Proses dan informasi sistem.                                         |
++-----------------+----------------------------------------------------------------------+
+| **/sbin**	  | File-file executable yang dibutuhkan untuk boot sistem serta program-|
+|		  | program *maintenance* seperti lilo, ifconfig, mkfs, dll dan hanya    |
+|		  | dapat dieksekusi oleh user root.                                     |
++-----------------+----------------------------------------------------------------------+
+| **/usr**	  | Merupakan direktori tempat aplikasi disimpan oleh GNU/linux, saat    |
+|		  | anda menginstal sebuah program di debian GNU/linux maka akan         |
+|		  | secara otomatis disimpan di direktori tersebut.                      |
++-----------------+----------------------------------------------------------------------+
+| **/var**	  | File data yang berisi tentang perubahan-perubahan yang dilakukan     |
+|		  | seperti cache, spool, log file, dan file mailbox user.               |
++-----------------+----------------------------------------------------------------------+
+|**/var/lock**	  | File lock untuk menjaga user lain menggunakan file tersebut.         |
++-----------------+----------------------------------------------------------------------+
+|**/var/log**	  | Berisi log dari sebuah program                                       |
++-----------------+----------------------------------------------------------------------+
+|**/tmp** 	  | Direktori ini digunakan untuk penyimpanan sementara	                 |
++-----------------+----------------------------------------------------------------------+
 
+Direktori-direktori di atas adalah direktori induk yang dibawahnya masih
+terdapat sub direktori, antara lain:
 
+==============	================================================================
+**/usr/X11R6** 	Berisi file-file yang dibutuhkan oleh sistem X Window.
+**/usr/bin** 	Berisi file-file biner/program yang dapat digunakan oleh seluruh user.
+**/usr/doc** 	Berisi dokumentasi yang dapat diakses oleh seluruh user.
+**/usr/games** 	Berisi program game yang dapat diakses oleh seluruh user.
+**/usr/lib** 	Berisi file biner untuk bahasa pemrograman yang dapat diakses oleh
+		seluruh user.
+**/usr/local** 	Berisi program yang ditulis oleh user pada komputer lokal.
+**/usr/src** 	Berisi source code untuk sistem operasi GNU/Linux seperti kernel
+		Linux, dll.
+==============	================================================================
 
+Direktori Home
+~~~~~~~~~~~~~~
 
+Saat menjalankan Debian GNU/linux, anda akan dihadapatkan dengan direktori
+home sebagai direktori default buat user. Setiap user memiliki direktori home
+sendiri tempat penyimpanan default file-file yang telah anda buat. Setiap home
+user kecuali superuser (root) adalah subdirektori dan berada di bawah direktori
+/home. Hal ini sangat penting karena file-file yang anda buat tidak dapat
+disimpan kesembarang direktori pada debian GNU/Linux. Akses ke banyak
+direktori akan dibatasi oleh sistem kecuali jika login sebagai user root. Oleh
+karena itu, direktori home ini merupakan tempat penyimpanan file secara default
+oleh user.
+
+Penelusuran File dan Direktori dengan File Manager
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Saat anda membuka file manager Debian GNU/Linux, maka secara default akan
+dihadapkan dengan direktori /home/$user. Pada start menu, klik Personal Files
+(home) selanjutnya akan muncul file manager seperti yang tampak pada gambar
+berikut.
 
 
 
