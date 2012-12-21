@@ -60,7 +60,7 @@ Pada start menu, klik System → User Manager (Kuser).
 Selanjutnya sistem akan meminta anda memasukkan password user root.klik [ok]
 untuk melanjutkan ke proses berikutnya.
 
-.. figure:: images images/kdsu.png
+.. figure:: images/kdsu.png
 
    *Jendela dialog untuk akses ke user root*
 
@@ -68,7 +68,7 @@ Pembuatan group account dapat anda lakukan dengan mengklik group pada
 main bar KDE User Manager-KUser seperti yang tampak pada gambar berikut.
 Sorot opsi Add... untuk menambah group baru.
 
-.. figure:: images images/manager-group.png
+.. figure:: images/manager-group.png
    
    *Manajemen group GNU/Linux*
 
