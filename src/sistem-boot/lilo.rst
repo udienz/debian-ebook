@@ -15,12 +15,20 @@ Untuk menambahkan password saat booting GNU/Linux, tambahkan baris berikut pada 
           password=password-anda
 
 Gunakan text editor seperti vi untuk mengedit file konfigurasi tersebut::
+
    ~# vi /etc/lilo.conf 
 
+.. figure:: images/boot/lilo-01.jpg
+
+   Setting password GNU/linux
 
 Password Seluruh OS pada Lilo Boot Loader 
 -----------------------------------------
 Untuk menambahkan password yang sama pada setiap sistem operasi, ubah posisi `password=password-anda` sesuai yang tertera seperti gambar berikut ini. 
+
+.. figure:: images/boot/lilo-02.jpg
+
+   Setting password GNU/Linux dan OS lain
 
 Setelah anda melakukan konfigurasi lilo boot loader, ubahlah hak akses file tersebut sehingga yang dapat mengaksesnya hanyalah user root saja. Gunakan perintah berikut::
 
@@ -54,12 +62,20 @@ Kemudian tambahkan baris berikut:
    bmp-colors=13,0,11,0,13 
    bmp-timer=76,30,11,0 
 
+.. figure:: images/boot/lilo-03.jpg
+
+   File konfigurasi /etc/lilo.conf
+
 Simpan perubahan file konfigurasi yang telah anda lakukan, kemudian ketikkan kedua perintah berikut untuk melihat perubahan yang ada.::
 
    ~# lilo 
    ~# reboot 
 
 Berikut tampilan lilo boot loader dengan splash image yang penulis gunakan. 
+
+.. figure:: images/boot/lilo-04.jpg
+
+   Tampilan lilo boot loader
 
 Menghapus Lilo pada MBR (Master Boot Record) 
 --------------------------------------------

@@ -67,6 +67,7 @@ Boot sistem anda dengan menggunakan diskboot (floppy, atau CD installer debian G
 atau 
 
 ::
+
    boot: rescbf24 root=/dev/hda2 
    
 Setelah menekan tombol enter, maka Debian GNU/Linux dapat anda gunakan kembali. 
