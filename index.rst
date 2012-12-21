@@ -18,7 +18,6 @@ Contents:
 <<<<<<< HEAD
    src/sistem-boot
 
-=======
    src/sistem-file-gnu-linux
    src/linux-shell
 >>>>>>> upstream/master
