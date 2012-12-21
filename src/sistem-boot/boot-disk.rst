@@ -75,9 +75,9 @@ Masuk ke OS MS-Windows XP/2000, kemudian pada command prompt ketikkan perintah b
       default=c:\bootsect.lnx 
       c:\bootsect.lnx=”Debian GNU/Linux” 
 
-.. figure:: images/boot/boot-01.jpg
+.. figure:: src/images/boot/boot-01.jpg
 
-   File konfigurasi boot.ini MS-Windows XP
+   *File konfigurasi boot.ini MS-Windows XP*
 
 *Sumber:Debian GNU/Linux Desktop Survival Guide – Graham Williams*
 
@@ -89,9 +89,9 @@ Untuk mencegah prompt fsck saat booting, tambahkan ``FSCKFIX=yes`` pada file kon
 
    ~# vi /etc/default/rcS 
 
-.. figure:: images/boot/boot-02.jpg
+.. figure:: src/images/boot/boot-02.jpg
 
-   File konfigurasi /etc/default/rcS
+   *File konfigurasi /etc/default/rcS*
 
 Lupa Password 
 -------------
@@ -109,9 +109,9 @@ Langkah berikutnya adalah mounting file system root (/). Perintah yang digunakan
    # cd /etc
    # vi passwd 
 
-.. figure:: images/boot/boot-03.jpg
+.. figure:: src/images/boot/boot-03.jpg
 
-   File konfigurasi /etc/passwd
+   *File konfigurasi /etc/passwd*
 
 Cara yang kedua adalah dengan menggunakan boot disk. Set BIOS anda agar first boot-nya berada pada floppy disk. Mekanisme ini digunakan jika anda menambahkan password pada lilo boot loader. 
 Buat sebuah direktori baru dengan nama linuxdebian::
@@ -135,7 +135,7 @@ Sistem Gagal Booting
 
 Jika sistem anda tidak dapat booting karena lilo boot loader anda rusak, booting dengan boot disk kemudian pad boot prompt, ketikkan perintah berikut: 
 
-.. figure:: images/boot/boot-04.jpg
+.. figure:: src/images/boot/boot-04.jpg
 
 
 PC tidak dapat melakukan "shutdown" atau "poweroff"
@@ -146,9 +146,9 @@ Jika PC anda tidak dapat melakukan shutdown/poweroff, periksa hal-hal berikut:
    - Periksa apakah kernel anda telah dikompilasi dengan mengikutkan sistem yang support APM dan mode flagnya telah diaktifkan. 
    - Untuk kernel 2.2.x tambahkan append=“apm=on” pada file konfigurasi /etc/lilo.conf. 
 
-.. figure:: images/boot/boot-05.jpg
+.. figure:: src/images/boot/boot-05.jpg
 
-   File konfigurasi /etc/lilo.conf
+   *File konfigurasi /etc/lilo.conf*
 
    - Untuk kernel 2.4.x, ketikkan perintah pada konsole::
    

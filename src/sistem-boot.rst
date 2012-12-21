@@ -1,5 +1,5 @@
 ===========
-SISTEM BOOT
+Sistem Boot
 ===========
 .. toctree::
    :maxdepth: 3
