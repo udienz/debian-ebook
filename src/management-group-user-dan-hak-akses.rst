@@ -28,41 +28,50 @@ Menambahkan Group Account
 Pembuatan group menentukan pengaturan hak akses file atau direktori yang
 dapat digunakan oleh setiap user dalam satu group. Penambahan group pada
 sistem debian GNU/Linux dapat menggunakan perintah berikut:
-debian:~# groupadd –g value namagroup
+
+::
+
+	debian:~# groupadd –g value namagroup
 
 Catatan:
-* -g: group ID
-* value: nilai group ID
-*namagroup: diisikan dengan nama group yang ada ingin buat.
+
+- -g: group ID
+- value: nilai group ID
+- namagroup: diisikan dengan nama group yang ada ingin buat.
 
 Misal:
 
 Anda ingin membuat sebuah group dengan nama linuxer, maka perintah yang
-digunakan adalah:
-debian:~# groupadd –g 500 linuxer
+digunakan adalah::
+
+	debian:~# groupadd –g 500 linuxer
+
 Menghapus Group Account
-Penghapusan group account pada sistem GNU/Linux dapat menggunakan perintah berikut:
-debian:~# groupdel namagroup
+Penghapusan group account pada sistem GNU/Linux dapat menggunakan perintah berikut::
+
+	debian:~# groupdel namagroup
 
 Misal:
+
 Penulis akan menghapus group account linuxer yang terdapat pada sistem
-debian GNU/linux, maka perintah yang digunakan adalah:
-debian:~# groupdel linuxer
+debian GNU/linux, maka perintah yang digunakan adalah::
+
+	debian:~# groupdel linuxer
 
 Manajemen Group Account dengan GUI
 ==================================
 Pada start menu, klik System → User Manager (Kuser).
 
-.. figure:: images images/kmenu-group-user.png
+.. figure:: images/kmenu-group-user.png
 
-   *Start menu KDE 3.2 debian GNU/Linux*
+**Start menu KDE 3.2 debian GNU/Linux**
 
 Selanjutnya sistem akan meminta anda memasukkan password user root.klik [ok]
 untuk melanjutkan ke proses berikutnya.
 
 .. figure:: images/kdsu.png
 
-   *Jendela dialog untuk akses ke user root*
+**Jendela dialog untuk akses ke user root**
 
 Pembuatan group account dapat anda lakukan dengan mengklik group pada
 main bar KDE User Manager-KUser seperti yang tampak pada gambar berikut.
@@ -70,7 +79,7 @@ Sorot opsi Add... untuk menambah group baru.
 
 .. figure:: images/manager-group.png
    
-   *Manajemen group GNU/Linux*
+**Manajemen group GNU/Linux**
 
 
 
