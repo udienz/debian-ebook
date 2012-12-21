@@ -664,25 +664,3 @@ kemudian langsung mengeksekusi perintah berikutnya yakni \`ls -x`.
 
 Untuk menghentikan program yang sedang berjalan pada konsole, anda dapat
 cukup menekan **Ctrl-Z** pada keyboard.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -15,4 +15,5 @@ Contents:
    src/pendahuluan
    src/instalasi
    src/manajemen-paket
+   src/sistem-file-gnu-linux
    src/linux-shell
