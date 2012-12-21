@@ -75,159 +75,258 @@ dan PXE.
     berbeda dengan anda, jadi anda butuh menggantinya dengan yang anda 
     butuhkan. Untuk pemasangan, kita akan menggunakan CD netboot yang dapat 
     diunduh di `Cermin CD Debian
-    di Indonesia <http://kartolo.sby.datautama.net.id/debian-cd/current/amd64/iso-cd/debian-6.0.6-amd64-netinst.iso>`_
+    di Indonesia <http://kartolo.sby.datautama.net.id/debian-cd/current/multi-arch/iso-cd/debian-6.0.6-amd64-i386-netinst.iso>`_
 
-Sistem dasar
-------------
+Tahap Instalasi
+---------------
 
-Masukkan CD Debian kedalam system dan boot dari CD. Pilih ``Install`` (ini akan
-memulai instalasi berbasiskan text - jika anda menginginkan instalasi grafis,
-pilih ``Graphical install``);
-
-.. image:: images/install/1.png
-
-Silakan pilih bahasa anda:
+Untuk memulai instalasi, atur BIOS agar melakukan boot dari media yang anda
+siapkan. Pada pembahasan kali ini kita menggunakan media USB Flash Disk 
+untuk melakukan instalasi. Tujuanya adalah kita dapat memilih apakah sistem
+menggunakan arsitektur 32 bit atau 64 bit.
 
 
-.. image:: images/install/2.png
+Memulai instalasi
+~~~~~~~~~~~~~~~~~
 
-Kemudian pilih lokasi anda:
+Pada saat melakukan boot dari media yang sudah kita pilih, kita akan diberi
+pilihan untuk melakukan instalasi di 32 bit atau 64 bit, dan juga kita
+ditawari untuk melakukan instalasi secara mode text atau mode grafis. Kita
+akan melakukan instalasi secara grafis dikarenakan kemudahan. Seperti pada
+gambar di bawah ini
+
+.. image:: images/install/grafis1.png
+
+Pastikan anda memilih ``64 bit graphical install`` dengan mengarahkan arah
+panah turun pada papan ketik anda.
+
+Pemilihan Bahasa
+~~~~~~~~~~~~~~~~
+
+Pada tahap selanjutnya kita akan diarahkan untuk menggunakan bahasa yang
+akan digunakan untuk pemasangan dan sistem pada umumnya. Pada pembahasan
+kali ini kita akan mengguanakn **Bahasa Indonesia** pada saat pemasangan.
+
+.. image:: images/install/grafis2.png
+
+Menentukan lokasi
+~~~~~~~~~~~~~~~~~
+
+Pada tahap selanjutnya kita akan diarahkan untuk memberikan informasi
+lokasi saat ini. Penting bagi kita untuk memilih lokasi nyata dikarenakan
+kita akan di arahkan pada zona waktu yang tepat.
+
+.. image:: images/install/grafis3.png
+
+Menentukan papan ketik yang kita gunakan
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Untuk penggunaan papan ketik yang beredar di Indonesia, peta tombol yang
+umum adalah Inggris Amerika. Jadi kita pilih **Inggris Amerika**
+
+.. image:: images/install/grafis4.png
+..    :width: 550px
+..    :height: 413px
+
+Pengaturan Jaringan
+~~~~~~~~~~~~~~~~~~~
+
+Pada tahap selanjutnya kita akan diberikan pilihan pengaturan jaringan,
+jika anda berada dibawah jaringan yang menggunakan DHCP Server maka anda
+tidak perlu melakukan apapun. Karena secara default sistem akan mendapatkan
+IP dari server DHCP. Jika menggunakan DHCP maka tampilan sukses akan nampak 
+seperti gambar dibawah ini.
+
+.. image:: images/install/grafis5.png
+..    :width: 550px
+..    :height: 413px
+
+Namun jika anda tidak mempunyai server DHCP di jaringan, maka akan nampak
+peringatan bahwa pengaturan otomatis gagal. Namun jangan panik, sillakan
+klik ``Lanjutkan``. Seperti pada gambar dibawah ini.
 
 
-.. image:: images/install/3.png
+.. image:: images/install/grafis5-1.png
 
-.. image:: images/install/4.png
-    :width: 550px
-    :height: 413px
+Langkah selanjutnya adalah menentukan informasi alamat IP, subnet IP, gateway IP dan informasi server DNS. Jika anda tidak tahu ind=formasi tersebut, silakan
+bertanya pada administrator jaringan anda.
 
-.. image:: images/install/5.png
-    :width: 550px
-    :height: 413px
+Untuk tahap penentuan IP seperti yang nampak pada gambar dibawah ini, silakan
+pilih ``Atur jaringan secara Manual`` atau ``Jangan mengatur jaringan saat ini``
+bila anda belum mempunyai informasi akurat.
 
-Jika anda memilih kombinasi bahasa dan lokasi yang tidak umum (dalam kasus saya, seperti
-``bahasa inggris`` sebagai bahasa dan ``Indonesia``` sebagai lokasi), installer mungkin akan
-memberitahu bahwa tidak ada locale yang terindikasi untuk kombinasi ini; dalam kasus ini anda
-harus memilih locale secara manual. Saya memilih ``en_US.UTF-8``:
 
-.. image:: images/install/6.png
+.. image:: images/install/grafis5-2.png
 
-Silakan pilih desain papan ketik:
+Selanjutnya silakan masukkan alamat IP anda, anda juga dapat memasukkan alamat 
+IPv6 jika anda tidak mempunyai alamat IP (IPv4). Pada bab sebelumnya kita telah
+menentukan IP, yaitu 192.168.0.100
 
-.. image:: images/install/7.png
-    :width: 550px
-    :height: 413px
+.. image:: images/install/grafis5-3.png
 
-Installer akan memeriksa CD, hardware anda dan mangatur jaringan dengan DHCP
-jika ada server DHCP di jaringan:
+Tahap selanjutnya adalah memasukkan subnet dari jaringan anda, pada umumnya
+jaringan mempunyai subnet /24 atau netmask 255.255.255.0, namun kadang berbeda
+tergantung dengan pengaturan dari administrator jaringan.
 
-.. image:: images/install/8.png
+.. image:: images/install/grafis5-4.png
 
-.. image:: images/install/10.png
+Tahap selanjutnya adalah memberikan informasi gateway yang kita gunakan di
+jaringan kita, pada umumnya gateway mempunyai ip terkecil di jaringan. Namun
+bisa berbeda bila administrator jaringan mempunyai pengaturan lain.
 
-Masukkan namahost. Dalam contoh berikut, sistem saya dinamakan dengan ``server1.example.com``,
-jadi saya akan memasukkan ``server1``:
+Silakan mengisikan dengan 192.168.0.1
 
-.. image:: images/install/11.png
+.. image:: images/install/grafis5-5.png
 
-Masukkan nama domain anda. Dalam contoh ini, ``example.com``:
+Tahap selanjutnya adalah memberikan informasi server DNS yang akan digunakan.
+Untuk amannya, silakan isikan ``8.8.8.8 8.8.4.4``.
 
-.. image:: images/install/12.png
+.. image:: images/install/grafis5-5.png
 
-Setelah itu berikan kata sandi root:
+Pengaturan Domain
+~~~~~~~~~~~~~~~~~
 
-.. image:: images/install/13.png
+Langkah selanjutnya adalah memberikan informasi domain yang ada dalam jaringan
+kita, anda dapat mengosongkan bila anda tidak tahu domain yang ada pada jaringan
+anda.
 
-Ulangi kata sandi lagi untuk mencegah salah ketik:
+.. image:: images/install/grafis6.png
 
-.. image:: images/install/14.png
+Pembuatan akun root
+~~~~~~~~~~~~~~~~~~~
 
-Buat akun user normal, untuk contoh ini menggunakan Administrator dengan nama user
-``administrator`` (jangan gunakan nama ``admin`` karena namanya telah dipakai di
-Debian Squeeze):
+Langkah selanjutnya adalah pembuatan pengguna root, root adalah pengguna dengan
+level kuasa tertinggi di linux. Anda tidak bisa mengubah namauser root, namun
+anda dapat menentukan kata sandi dari root.
 
-.. image:: images/install/15.png
+Pada penentuan kata sandi root, mohon dipertimbangkan untuk menggunakan kata
+sandi yang tidak mudah ditebak, seperti penggunaan kombinasi dari huruf, angka,
+tanda baca, dan spasi. Beberapa kata sandi yang luamayan rumit adalah ``Jl.
+Jend. Sudirman No 43, belok kanan``.
 
-.. image:: images/install/16.png
+Semakin rumit kata sandi semakin susah untuk ditebak dan semakin aman. Mohon
+agar kata sandi ini dirahasiakan dari pengguna lain.
 
-.. image:: images/install/17.png
+.. image:: images/install/grafis7.png
 
-Sekarang kita akan membuat partisi di harddisk. Untuk memudahkan kita akan membuat
-satu partisi besat dengan titik kait / dan partisi kecil swap. Untuk itu kita pilih
-``Guided - use entire disk``. Anda dapat memilih opsi lain jika anda paham apa yang anda lakukan.
+Membuat akun biasa
+~~~~~~~~~~~~~~~~~~
 
-.. image:: images/install/19.png
+Dalam instalasi Debian, kita akan membuat dua akun yaitu root yang mempunyai
+kuasa tertinggi dan pengguna biasa. Pengguna biasa ini yang akan kita
+gunakan dalam keseharian, dan **sangat** tidak disarankan untuk menggunakan
+pengguna root sebagai penggunaan sehari-hari. Pada tahap ini kita akan
+memasukkan nama lengkap kita dan nama user, untuk nama user anda dapat
+menggunakan nama panggilan atau singkatan. Mohon jangan menggunakan
+nama admin karena user admin sudah ada di sistem debian sejak rilis squeeze.
 
-Pilih diska yang akan kita partisi:
+.. image:: images/install/grafis8.png
+.. image:: images/install/grafis9.png
 
-.. image:: images/install/20.png
+Langkah selanjutnya adalah penentuan kata sandi, seperti root usahakan
+menentukan passwordnya tidak mudah ditebak.
 
-Langkah selanjutya akan memilih skema partisi. Seperti yang dijelaskan sebelumnya, kita memilih
-``All files in one partition (recommended for new users)`` untuk kemudahan:
+.. image:: images/install/grafis10.png
 
-.. image:: images/install/21.png
 
-Jika sudah selesai, pilih ``Finish partitioning and write changes to disk``:
+Mengator Zona Waktu
+~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/install/22.png
+Langkah selanjutnya adalah menentukan zona waktu, dikarenakan penulis berada
+di pulau Jawa, maka disini penulis memilih ``WIB (Sumatra, Jakarta, Jawa
+Kalbar, dan Kalteng)``
 
-Pilih ``Yes`` jika anda di tanya ``Write changes to disks?``:
+.. image:: images/install/grafis11.png
 
-.. image:: images/install/23.png
+Pengaturan Partisi Harddisk
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Setelah itu, partisi baru anda akan dibuat dan diformat:
+Tahap selanjutnya adalah pemartisi harddisk, pada saat pengaturan harddisk
+ini mohon melakukan dengan sangat hati-hati. Hal ini dikarenakan banyak
+kasus hilangnya data pada harddisk karena memlih opsi salah.
 
-.. image:: images/install/24.png
 
-Sistem dasar sekarang lagi dipasang:
+.. image:: images/install/grafis12.png
 
-.. image:: images/install/25.png
+Ada empat pilihan yang tersedia, yaitu:
 
-Kemudian kita akan mengatur apt. Dikarenakan kita menggunakan `CD Netinstall`_
-yang mengandung kumpulan paket Debian yang sangat minim. Kita harus menggunakan
-cermin di jaringan/internet untuk mendapatkan kumpulan semua paket Debian. Silakan
-pilih negara dimana terdapat cermin Debian:
+ - ``Terpandu -- gunakan seluruh harddisk``, opsi ini bisa dipilih dengan 
+   syarat **tidak ada** data lain dalam harddisk.
+ - ``Terpandu -- gunakan seluruh harddisk dan setel LVM``, opsi ini sama
+   dengan sebelumnya, hanya harddisk akan menggunakan teknologi LVM
+   (Logical Volume Manager)
+ - ``Terpandu -- gunakan seluruh harddisk dan setel LVM terenkripsi``, opsi
+   ini sama dengan sebelumnya hanya di tambahkan opsi enkripsi yang
+   menyediakan tingakat kemanan ketika hardisk anda hilang atau tercuri
+   kemudian ada yang mencoba untuk melihat isi harddisk. Jika menggunakan
+   opsi ini maka orang yang akan melihat data di harddisk tidak akan bisa
+   melihat isi harddisk karena adanya enkripsi.
+ - Manual, opsi ini digunakan apabila anda mempunyai data di dalam harddisk 
+   anda. Ini penting untuk menghindari penghapusan data di harddisk. Untuk
+   instalasi dual boot sialakan memilih ini.
 
-.. image:: images/install/26.png
+Pada panduan ini, kita memilih opsi ``Terpandu -- gunakan seluruh harddisk``
+untuk memudahkan instalasi.
 
-Kemudian pilih cermin yang akan digunakan (contoh ``ftp.de.debian.org``):
+Langkah selanjutnya adalah menentukan harddisk yang akan dipasang sistem
+Debia. Jika anda memiliki satu harddisk maka yang nampak hanya satu saja,
+namun jangan panik, memang seharusnya nampak seperti itu.
 
-.. image:: images/install/27.png
+.. image:: images/install/grafis13.png
 
-Jika anda tidak menggunakan HTTP Proxy,biarkan isian tersebut kosong dan tekan ``Continue``:
+Menentukan Titik Kait Partisi Harddisk
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/install/28.png
+Setelah berhasil melewati proses partisi harddisk, langkah selanjutnya
+adalah menentukan titik kait partisi kedalam direktori. Berbeda dengan
+Windows, Linux mempunyai spesifikasi berbeda. Jika di Windows ada ``Drive
+C:`` maka di Linux tidak ada hal ini dikarenakan root mempunyai topologi
+pohon dan ranting, atau direktori terstruktur.
 
-Seakrang apt sedang memperbarui basis data paket:
+Berikut adalah penjelasan direktori yang ada di dalam Linux:
 
-.. image:: images/install/29.png
+- /, adalah direktori tertinggi dari Linux, tidak ada direktori diatas /.
+  pengucapan / adalah root direktori. Root disini bukan pengguna root.
+- /bin, adalah direktori yang berisikan perintah yang tersedia untuk mode
+  pengguna tunggal (singel user mode).
 
-Kita dapat melewati survei penggunakan paket dengan memilih ``No``:
+.. note::
+    single user mode adalah sebuah fasilitas dari kernel linux yang 
+    memungkinkan kita untuk memuat kernel dan konsole dengan fasilitas 
+    terbatas. Biasanya digunakan untuk pemeliharaan siste yang tidak perlu 
+    memuat seluruh servis di sistem.
 
-.. image:: images/install/31.png
+- /boot, berisikan berkas-berkas untuk boot loader seperti kernel dan 
+  initrd.
+- /dev, berisikan informasi hardware. Seperti informasi partisi harddisk,
+  modem, perangkat USB, dan lain-lain.
+- /etc, berisikan berkas-berkas pengaturan sistem, yang berarti semua
+  pengaturan sistem berada disini.
+- /home, berisikan direktori pengguna selain root, di sini pengguna dapat
+  meyimpan berkas-berkasnya di sini.
+- /lib, berisikan pustaka yang diperlukan oleh periintah-perintah biner dari
+  /bin dan /sbin
+- /media, merupakan titik kait dari *removable media* seperti CD-RIM, USB 
+  Flash disk.
+- /mnt, merupakan titik kait sementara, hampir mirip dengan /media
+- /opt, adalah tempat aplikasi biasanya disimpan, biasanya aplikasi yang
+  menyimpan disini adalah aplikasi yang bukan bawaan dari Debian.
+- /proc, merupakan sistem berkas virtual yang berisikan informasi tentang
+  proses dan informasi kernel. 
+- /root, adalah direktori milik pengguna root.
+- /sbin, berisikan berkas-berkas biner yang hanya bisa dieksekusi oleh root.
+- /srv, direktori opsional yang biasanya digunakan untuk menyimpan data-data
+  yang disediakan oleh layanan server.
+- /tmp, adalah direktori sementara yang digunakan untuk menyimpan berkas.
+  Berkas yang berada di /tmp akan hilang jika sistem reboot atau dimatikan.
+- /usr, berisikan data dari sistem yang terdapat banyak peralatan dan
+  aplikasi dari pengguna. Pada umumnya Debian menggunakan direktori ini
+  untuk menyimpan data aplikasi, berkas biner dan informasi paket lainya.
+- /var, berisikan berkas-berkas milik sistem dan pengguna, karakteristik
+  berkas-berkas disini adalah sering terjadinya perubahan. Seperti berkas
+  log, berkas sementara email, cron, dan lain-lain.
+- /run, berisikan informasi layanan sistem yang berjalan selama boot.
 
-Kita membutuhkan web server, dns server, dan basisdata MySQL tapi kita tidak akan
-memilihnya sekarang karena kita ingin mengetahui paket apa saja yang akan dipasang
-untuk keperluan server-server tersebut. Tentu kita akan memasang paket-paket tersebut secara manual.
-Untuk kita pilih `Standard system utilities`` dan
-``SSH server`` dan pilih ``Continue``:
-
-.. image:: images/install/32.png
-
-Paket-paket yang dibutuhkan akan diunduh dan dipasang ke sistem:
-
-.. image:: images/install/33.png
-
-.. image:: images/install/34.png
-
-Ketika ditanya ``Install the GRUB boot loader to the master boot record?``, pilih
-``Yes:````
-
-.. image:: images/install/36.png
-
-Pemasangan sistem dasar sudah selesai. Keluarkan `CD Netinstall`_ dari cdrom
-dan pilih ``Continue`` untuk memuat ulang sistem:
-
-.. image:: images/install/38.png
 
 Memasang SSH Server
 ----------------------

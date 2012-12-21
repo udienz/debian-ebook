@@ -15,5 +15,10 @@ Contents:
    src/pendahuluan
    src/instalasi
    src/manajemen-paket
+<<<<<<< HEAD
    src/sistem-boot
 
+=======
+   src/sistem-file-gnu-linux
+   src/linux-shell
+>>>>>>> upstream/master
