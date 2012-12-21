@@ -18,7 +18,7 @@ Gunakan text editor seperti vi untuk mengedit file konfigurasi tersebut::
 
    ~# vi /etc/lilo.conf 
 
-.. figure:: src/images/boot/lilo-01.jpg
+.. figure:: images/lilo-01.jpg
 
    *Setting password GNU/linux*
 
@@ -26,7 +26,7 @@ Password Seluruh OS pada Lilo Boot Loader
 -----------------------------------------
 Untuk menambahkan password yang sama pada setiap sistem operasi, ubah posisi `password=password-anda` sesuai yang tertera seperti gambar berikut ini. 
 
-.. figure:: src/images/boot/lilo-02.jpg
+.. figure:: images/lilo-02.jpg
 
    *Setting password GNU/Linux dan OS lain*
 
@@ -62,7 +62,7 @@ Kemudian tambahkan baris berikut:
    bmp-colors=13,0,11,0,13 
    bmp-timer=76,30,11,0 
 
-.. figure:: src/images/boot/lilo-03.jpg
+.. figure:: images/lilo-03.jpg
 
    *File konfigurasi /etc/lilo.conf*
 
@@ -73,7 +73,7 @@ Simpan perubahan file konfigurasi yang telah anda lakukan, kemudian ketikkan ked
 
 Berikut tampilan lilo boot loader dengan splash image yang penulis gunakan. 
 
-.. figure:: src/images/boot/lilo-04.jpg
+.. figure:: images/lilo-04.jpg
 
    *Tampilan lilo boot loader*
 

@@ -75,7 +75,7 @@ Masuk ke OS MS-Windows XP/2000, kemudian pada command prompt ketikkan perintah b
       default=c:\bootsect.lnx 
       c:\bootsect.lnx=”Debian GNU/Linux” 
 
-.. figure:: src/images/boot/boot-01.jpg
+.. figure:: images/boot-01.jpg
 
    *File konfigurasi boot.ini MS-Windows XP*
 
@@ -89,7 +89,7 @@ Untuk mencegah prompt fsck saat booting, tambahkan ``FSCKFIX=yes`` pada file kon
 
    ~# vi /etc/default/rcS 
 
-.. figure:: src/images/boot/boot-02.jpg
+.. figure:: images/boot-02.jpg
 
    *File konfigurasi /etc/default/rcS*
 
@@ -109,7 +109,7 @@ Langkah berikutnya adalah mounting file system root (/). Perintah yang digunakan
    # cd /etc
    # vi passwd 
 
-.. figure:: src/images/boot/boot-03.jpg
+.. figure:: images/boot-03.jpg
 
    *File konfigurasi /etc/passwd*
 
@@ -135,7 +135,7 @@ Sistem Gagal Booting
 
 Jika sistem anda tidak dapat booting karena lilo boot loader anda rusak, booting dengan boot disk kemudian pad boot prompt, ketikkan perintah berikut: 
 
-.. figure:: src/images/boot/boot-04.jpg
+.. figure:: images/boot-04.jpg
 
 
 PC tidak dapat melakukan "shutdown" atau "poweroff"
@@ -146,7 +146,7 @@ Jika PC anda tidak dapat melakukan shutdown/poweroff, periksa hal-hal berikut:
    - Periksa apakah kernel anda telah dikompilasi dengan mengikutkan sistem yang support APM dan mode flagnya telah diaktifkan. 
    - Untuk kernel 2.2.x tambahkan append=“apm=on” pada file konfigurasi /etc/lilo.conf. 
 
-.. figure:: src/images/boot/boot-05.jpg
+.. figure:: images/boot-05.jpg
 
    *File konfigurasi /etc/lilo.conf*
 
