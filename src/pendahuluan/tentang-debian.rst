@@ -36,7 +36,7 @@ kestabilan, sehingga tidak mengherankan jika distro ini banyak digunakan
 sebagai dasar pembuatan distro lain.
 
 Sistem operasi universal
-========================
+------------------------
 
 Dalam perjalananya, debian merupakan satu-satunya distro yang
 dapat mendukung 11 +2 arsitektur antara lain 2-bit PC / Intel 
@@ -48,7 +48,7 @@ Tambahan dua arsitektur lagi adalah kfreebsd-i386 dan kfreebsd-
 amd64 yang menggunakan kernel freeBSD [#]_.
 
 "Social contract" dengan komunitas perangkat lunak terbuka
-==========================================================
+----------------------------------------------------------
 
 Debian mempunyai *social contract* yang dibuat oleh Ian Murdock, isi kontra sosial ini adalah:
 
@@ -97,27 +97,9 @@ Debian mempunyai *social contract* yang dibuat oleh Ian Murdock, isi kontra sosi
    	dan memelihara paket itu. Sedangkan Debian Developer adalah orang yang 
     	membuat program dari hulu dapat dijalankan dengan baik di Debian.
    	
-   
-Mendapatkan Debian
-==================
-
-Untuk informasi tentang bagaimana mengunduh Dbeian GNU/Linux dari internet
-atau dari pembelian resmi CD Debian, silakan lihat `halaman web penyaluran 
-<http://www.debian.org/distrib/>`_. Daftar dari `cermin Debian 
-<http://www.debian.org/distrib/ftplist>`_ berisikan daftar lengkap cermin Debian,
-sehingga anda dapat dengan mudah mencari yang terdekat dengan anda.
-
-Debian dapat di upgrade dengan mudah setelah pemasangan. Jika anda  menginnginkan,
-Prosedur instalasi akan membantu membangun sistem sehingga anda dapat mengupgrade
-setelah instalasi selesai.
-
-Di Indonesia, terdapat banyak cermin CD Debian seperti:
-
-- Kambing UI, http://kambing.ui.ac.id/iso/debian/
-- Datautama, http://kartolo.sby.datautama.net.id/debian-cd/
 
 Turunan Debian
-==============
+--------------
 
 Berikut ini beberapa distro turunan Debian GNU/Linux yang dapat anda lihat di
 `situs resmi Debian <http://www.debian.org/misc/children-distros>`_:
@@ -150,7 +132,7 @@ Berikut ini beberapa distro turunan Debian GNU/Linux yang dapat anda lihat di
    BlankOn adalah distro lokal turunan debian yang mengusung konten lokal Indonesia.
 
 Rilis Debian GNU/Linux
-======================
+----------------------
 
 Nama rilis Debian GNU/Linux diambil dari *toy story movies* seperti Bo,
 Hamm, slink, Potato, Woody, Sid, Sarge, Lenny, Squeeze, Wheezy, Jessie. 
@@ -197,7 +179,7 @@ GNU/Linux. [#]_
 | 1.2    | rex       | 1996-12-12    | 1        | 848       | 1996            |
 +--------+-----------+---------------+----------+-----------+-----------------+
 | 1.3    | bo        | 1997-06-05    | 1        | 974       | 1997            |
-+--------+-----------+---------------+----------------------+-----------------+
++--------+-----------+---------------+----------+-----------+-----------------+
 | 2.0    | hamm      | 1998-07-24    | 2        | ~ 1,500   | 1998            |
 +--------+-----------+---------------+----------+-----------+-----------------+
 | 2.1    | slink     | 1999-03-09    | 4        | ~ 2,250   | 2000-12         |
@@ -220,7 +202,7 @@ GNU/Linux. [#]_
 +--------+-----------+---------------+----------+-----------+-----------------+
 
 Debian sebagai organisasi
-=========================
+-------------------------
 
 Sesuatu hal yang tidak mungkin untuk mengelola suatu distro tanpa organisasi
 yang dapat dipercaya. Begitu juga dengan Debian, Debian memiliki struktur
@@ -264,12 +246,12 @@ Debian secara tahunan akan mengadakan pengumutan suara [#]_ untuk menentukan
 ketua proyek, dan hanya bisa diikuti oleh anggota proyek.
 
 Debian Developer
-================
+----------------
 
 Debian Developer adalah anggota proyek Debian resmi dan berhak mendapatkan
 akses penuh proyek Debian. Beberapa fasilitas Debian Developer adalah:
 
-- Dapat mengikuti pengumutan suara yang dilakukan oleh proyek Debian.
+ - Dapat mengikuti pengumutan suara yang dilakukan oleh proyek Debian.
  - Mendapatkan akses ke beberapa mesin Debian.
  - Mendapatkan email debian.org.
  - Dapat mengunggah paketnya langsung tanpa melalui perantara.
@@ -285,7 +267,7 @@ berdasarkan negara tempat para pengembang [#]_
     menjadi Debian Developer.
 
 Debian Maintainer
-=================
+-----------------
 
 Umumnya pada tahap menjadi Debian Developer, seseorang akan menjadi Debian
 Maintainer dahulu, perbedaan mendasar dari keduanya adalah hak upload.
@@ -296,6 +278,22 @@ perantara, hal ini beda dengan Debian Developer yang dapat mengunggah
 .. Note::
     Berbeda dengan Debian Developer, di Indonesia baru ada satu Debian 
     Maintainer. 
+
+.. _mendapatkan-debian:
+
+Mendapatkan Debian
+------------------
+
+Untuk informasi tentang bagaimana mengunduh Dbeian GNU/Linux dari internet
+atau dari pembelian resmi CD Debian, silakan lihat `halaman web penyaluran 
+<http://www.debian.org/distrib/>`_. Daftar dari `cermin Debian 
+<http://www.debian.org/distrib/ftplist>`_ berisikan daftar lengkap cermin Debian,
+sehingga anda dapat dengan mudah mencari yang terdekat dengan anda.
+
+Di Indonesia, terdapat banyak cermin CD Debian seperti:
+
+- Kambing UI, http://kambing.ui.ac.id/iso/debian/
+- Datautama, http://kartolo.sby.datautama.net.id/debian-cd/
 
 .. [#] http://www.debian.org/intro/about
 .. [#] http://www.debian.org/News/2011/20110205a
