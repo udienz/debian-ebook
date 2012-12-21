@@ -148,13 +148,16 @@ klik ``Lanjutkan``. Seperti pada gambar dibawah ini.
 
 .. image:: images/install/grafis5-1.png
 
-Langkah selanjutnya adalah menentukan informasi alamat IP, subnet IP, gateway IP dan informasi server DNS. Jika anda tidak tahu ind=formasi tersebut, silakan
+Langkah selanjutnya adalah menentukan informasi alamat IP, subnet IP, gateway
+IP dan informasi server DNS. Jika anda tidak tahu ind=formasi tersebut, silakan
 bertanya pada administrator jaringan anda.
 
 Untuk tahap penentuan IP seperti yang nampak pada gambar dibawah ini, silakan
 pilih ``Atur jaringan secara Manual`` atau ``Jangan mengatur jaringan saat ini``
 bila anda belum mempunyai informasi akurat.
 
+.. note:: jika anda memilih untuk mengatur jaringan pada saat nanti, silakan
+    merujuk pada halaman :ref:`Pengaturan jaringan secara manual <atur-jaringan-manual>`.
 
 .. image:: images/install/grafis5-2.png
 
@@ -327,6 +330,120 @@ Berikut adalah penjelasan direktori yang ada di dalam Linux:
   log, berkas sementara email, cron, dan lain-lain.
 - /run, berisikan informasi layanan sistem yang berjalan selama boot.
 
+Silakan merujuk ke :ref:`Bab 4 tentang sistem berkas di Debian
+<sistem-berkas-di-debian>`. Pada langkah ini, silakan memilih opsi ``Partisi
+/home yang terpisah``. Seperti pada gambar dibawah ini:
+
+.. image:: images/install/grafis13.png
+
+Kita memilih untuk memisahkan partisi /home dari / untuk mengantisipasi
+hilangnya data ketika kuta melakukan format ulang.
+
+.. note::
+    Ingat bahwa data user selain root akan disimpan di folder /home/namauser
+
+Pada langkah selanjutnya kita akan diperlihatkan review dari partisi yang
+diterapkan di sistem Debian. Seperti yang nampak pada gambar dibawah ini
+
+.. image:: images/install/grafis14.png
+
+Silakan memilih opsi ``Selesai mempartisi dan tulis perubahan-perubahanya
+ke harddisk``. Lalu tekan lanjutkan.
+
+Dan konformasi ulang sekali lagi dengan memilih pilihan ``Ya`` pada 
+tampilan berikutnya.
+
+.. image:: images/install/grafis15.png
+
+Menentukan server penyedia arsip Debian
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Tahap pemasangan selanjutnya adalah penambahan paket-paket, dikarenakan kita
+menggunakan netinstall, maka kita dianjurkan untuk menambahkan web penyedia
+arsip paket Debian. Pada tampilan layar kita akan ditanya negara letak
+server penyedia arsip Debian.
+
+.. image:: images/install/grafis16.png
+
+Pada pilihan ini kita akan memilih negara kita, hal ini dikarenakan di
+Indonesia sudah mempunyai server penyedia arsip debian sendiri. Silakan klik
+``Lanjutkan`` untuk memulai tahap instalasi selanjutnya.
+
+.. image:: images/install/grafis17.png
+
+Dikarenakan server penyedia arsip debian di indonesia belum dimasukkan ke
+dalam arsip resmi debian, maka kita akan memasukkan informasinya secara 
+manual.
+
+.. note:: Server penyedia arsip Debian resmi mempunyai domain dibawah domain
+    debian.org dnegan format ftp.XX.debian.org, XX digantikan dengan dua
+    digit negara. Contoh untuk Taiwan maka server resminya adalah
+    ftp.tw.debian.org
+
+.. image:: images/install/grafis18.png
+
+Pada tampilan selanjutkan kita akan memasukkan informasi server penyedia
+arsip debian. Pada penduan ini kita menggunakan server `Datautama
+<http://kartolo.sby.datautama.net.id>`_. Maka kita akan mengisikan 
+informasinya seperti pada gambar diatas.
+
+.. image:: images/install/grafis19.png
+
+Pada tahap selanjutnya kita akan ditanya, apakah kita akan menggunakan
+server proxy untuk melakukan sambungan ke server arsip debian. Silakan kosongkan
+apabila anda tidak mempunyai proxy dan ketik ``Lanjutkan``.
+
+Popularity Contest
+~~~~~~~~~~~~~~~~~~
+
+Pada tahap selanjutnya kita akan ditanya apakah kita akan berpartisipasi pada
+pengumpulan statistik paket-paket yang sering di pasang. Sangat dianjurkan untuk
+memilih ``Ya``, dikarenakan kita akan emngirimkan umpan balik statistik paket
+kita ke Debian dan para pengembang Debian dapat mengevaluasinya.
+
+.. image:: images/install/grafis20.png
+
+Pemilihan paket
+~~~~~~~~~~~~~~~
+
+Pada tampilan selanjutnya kita akan ditanya untuk memasang daftar paket apa saja
+yang akan dipasang di sistem kita.
+
+.. image:: images/install/grafis21.png
+
+Pada tahap ini kita akan memasang daftar paket Desktop, SSH Server (opsional
+pada kali ini lihat :ref:`Memasang SSH Server <memasang-ssh-server>`), Laptop,
+dan sistem umum.
+
+Setelah kita klik ``Lanjutkan``, maka sistem akan melakukan pengunduhan
+paket dari server penyedia arsip Debian yang sudah kita tentukan sebelumnya.
+Lamanya tahap ini tergantung pada koneksi anda.
+
+Pemasangan Boot Loader
+~~~~~~~~~~~~~~~~~~~~~~
+
+Tahap selanjutnya adalah pemasangan boot loader, yang berguna untuk memulai
+sistem sesaat setelah komputer melakukan booting.
+
+.. image:: images/install/grafis22.png
+
+Tahap akhir
+~~~~~~~~~~~
+
+Pada tahap ini, instalasi telah dilakukan dan selesai. pastikan anda mengeluarkan
+media instalasi sehingga sistem dapat boot ke Debian.
+
+.. image:: images/install/grafis23.png
+
+Halaman login
+~~~~~~~~~~~~~
+
+Berikut adalah tampilan halaan login pada Debian yang dihasilkan dari pemasangan
+yang baru saja kita lakukan
+
+.. image:: images/install/grafis24.png
+
+.. _memasang-ssh-server:
 
 Memasang SSH Server
 ----------------------
@@ -344,6 +461,8 @@ dengan mengetikkan::
 
 Jika kita menggunakan Windows, maka kita harus mengunduh putty untuk melakukan remote,
 untuk mengunduh putty bisa diunduh dari `sini <http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe>`_
+
+.. _atur-jaringan-manual:
 
 Pengaturan jaringan
 ---------------------

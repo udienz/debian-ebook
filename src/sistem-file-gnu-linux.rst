@@ -2,6 +2,8 @@
 Sistem Berkas GNU/Linux
 =======================
 
+.. _sistem-berkas-di-debian:
+
 Memahami File GNU/Linux
 -----------------------
 
