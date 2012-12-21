@@ -15,6 +15,7 @@ Contents:
    src/pendahuluan
    src/instalasi
    src/manajemen-paket
-   src/sistem-boot
    src/sistem-file-gnu-linux
    src/linux-shell
+   src/sistem-boot
+   src/management-group-user-dan-hak-akses
