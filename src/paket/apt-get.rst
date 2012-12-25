@@ -20,10 +20,10 @@ berikut::
 
     debian:~# apt-get install software1 software2 ...
 
-Misal: Penulis ingin menginstal software mozilla, mc, pico, dan parted.
+Misal: Penulis ingin menginstal software iceweasel, mc, pico, dan parted.
 Perintah yang digunakan adalah::
 
-    debian:~# apt-get install mozilla mc pico parted
+    debian:~# apt-get install iceweasel mc pico parted
 
 Menghapus Software
 ------------------
@@ -55,7 +55,7 @@ menggunakan perintah berikut::
  debian:~# apt-get –d source software1 software2 ...
 
 .. note::
- Alamat URL tempat source paket software Debian berada harus tercantung pada
+ Alamat URL tempat source paket software Debian berada harus tergantung pada
  direktori ``/etc/apt/sources.list``
 
 Membersihkan Arsip File Download Software
@@ -79,7 +79,7 @@ Update Informasi Daftar Paket Software Baru
 Untuk meng-update daftar paket software baru dapat menggunakan perintah
 berikut::
 
-debian:~# apt-get update
+ debian:~# apt-get update
 
 Dselect
 =======
@@ -105,13 +105,13 @@ berikut.
 apt - Instalasi dengan mode teks
 --------------------------------
 
-1. Login ke sistem sebagai user root.
-2. Buka command line (konsole) dengan mengklik ikon konsole pada panel.
-3. Pada konsole, ketikkan perintah berikut::
+#. Login ke sistem sebagai user root.
+#. Buka command line (konsole) dengan mengklik ikon konsole pada panel.
+#. Pada konsole, ketikkan perintah berikut::
 
- debian:~# apt-cdrom add
+    debian:~# apt-cdrom add
 
-4. Masukkan cd installer kemudian ketikkan perintah berikut::
+#. Masukkan cd installer kemudian ketikkan perintah berikut::
 
- debian:~# apt-get install namapaket
+    debian:~# apt-get install namapaket
 
