@@ -157,8 +157,7 @@ pilih ``Atur jaringan secara Manual`` atau ``Jangan mengatur jaringan saat ini``
 bila anda belum mempunyai informasi akurat.
 
 .. note:: jika anda memilih untuk mengatur jaringan pada saat nanti, silakan
-    merujuk pada halaman :ref:`Pengaturan jaringan secara manual
-    <atur-jaringan-manual>`_.
+    merujuk pada halaman :ref:`Pengaturan jaringan secara manual <atur-jaringan-manual>`.
 
 .. image:: images/install/grafis5-2.png
 

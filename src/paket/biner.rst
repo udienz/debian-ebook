@@ -87,10 +87,4 @@ digunakan adalah::
 	:/vlc-0.8.1# make install
 	:/vlc-0.8.1# make clean
 
-Instalasi Paket Software dari Binary Code
------------------------------------------
-Distribusi debian GNU/Linux memiliki 3 buah cara dalam instalasi paket
-software untuk binary code (deb). Berikut cara penggunaan perintah instalasi
-software dengan ``dpkg``.
-
 
