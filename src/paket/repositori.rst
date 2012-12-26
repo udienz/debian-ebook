@@ -58,6 +58,8 @@ tidak sesuai dengan DFSG atau mempunyai masalah dalam distribusi. Hal ini
 dikarenakan keterbatasan dalam modifikasi paket dan ada tidaknya kode
 sumber.
 
+.. _pengaturan-sources-list:
+
 Pengaturan Repositori Debian
 ----------------------------
 

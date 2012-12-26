@@ -82,9 +82,15 @@ harus dapat memroses setiap tugas (task) dalam waktu yang sangat singkat.
 Beberapa tugas memiliki prioritas tertinggi sehingga diperlukan juga prioritas
 pemakaian sumber daya CPU ke tugas tersebut.
 
+.. figure:: ../images/pendahuluan/tux.png
+    :align: center
+
+    Tux sebagai logo Linux
+
 Salah satu keunggulan dari sistem operasi multitasking adalah kemampuan dari
 sistem operasi tersebut untuk dapat menjalankan tugas-tugas yang berbeda
 secara simultan.
+
 Bagaiamana sebuah komputer dapat dikatakan multiuser?, Cukup sederhana
 saja, yakni pengguna dapat menggunakan komputer yang sama pada waktu yang
 bersamaan dan tetap terjadi proses pemisahan informasi antara pengguna yang
@@ -102,6 +108,11 @@ Richard Matthew Stallman (RMS) lahir di Manhattan pada tanggal 16 Maret
 adalah tokoh sentral Free Software Foundation, pendiri Proyek GNU serta
 pencetus hak lisensi copyleft dan konsep ini diabadikannya dengan lisensi
 General Public License (GPL).
+
+.. figure:: ../images/pendahuluan/rms.jpeg
+    :align: center
+
+    RMS dalam sampul *Free as Freedom*
 
 Proyek GNU yang diciptakan oleh Richard Stallman antara lain: teks editor
 Emacs, debugger GDB, kompiler GNU (GCC) yang saat ini telah mendukung
@@ -153,6 +164,11 @@ Linus Torvalds lahir pada tanggal 28 Desember 1969 di Helsinki-Finland.
 Ayahnya bernama Torvalds. Saat berusia 10 tahun Linus Torvalds sudah mulai
 mencoba membuat program pada komputer Commodore VIC-20 milik sang
 kakek.
+
+.. figure:: ../images/pendahuluan/linus.jpeg
+    :align: center
+
+    Linus Trovalds
 
 Tahun 1991 Torvalds tercatat sebagai mahasiswa ilmu komputer di University
 of Helsinki, Finland. Di tahun yang sama Torvalds membeli sebuah komputer
@@ -227,3 +243,6 @@ menggunakan free software seperti latex atau yang mendukung format XML.
 
 
 .. _GNU Project: http://www.gnu.org/software/software.html
+.. [#] http://en.wikipedia.org/wiki/File:Tux.svg
+.. [#] http://en.wikipedia.org/wiki/File:Richard_Matthew_Stallman.jpeg
+.. [#] http://en.wikipedia.org/wiki/File:Linus_Torvalds.jpeg

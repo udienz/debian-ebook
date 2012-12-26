@@ -81,37 +81,3 @@ berikut::
 
  debian:~# apt-get update
 
-Dselect
-=======
-
-Tool instalasi `dselect` ini memberikan kemudahan kepada user debian
-GNU/Linux dalam melakukan instalasi karena dilengkapi dengan tampilan semi
-grafis. Anda hanya menyorot opsi [I]nstall jika ingin menginstal atau meng-
-upgrade paket software, opsi [R]emove jika ingin menghapus sebuah software
-dari sistem, opsi [C]onfig untuk mengkonfigurasi paket software yang belum
-terkonfigurasi, dan beberapa opsi lain yang diperlukan. Pengaksesan tool
-`dselect` dapat menggunakan perintah berikut::
-
- debian:~# dselect
-
-Instalasi Software dari CDROM
-=============================
-
-Untuk instalasi software dari cdrom pada debian GNU/Linux termasuk untuk
-meng-upgrade KDE 3.0 ke KDE 3.1 atau KDE 3.2 dapat dengan mudah
-dilakukan. Untuk instalasi software dari cdrom dapat menggunakan perintah
-berikut.
-
-apt - Instalasi dengan mode teks
---------------------------------
-
-#. Login ke sistem sebagai user root.
-#. Buka command line (konsole) dengan mengklik ikon konsole pada panel.
-#. Pada konsole, ketikkan perintah berikut::
-
-    debian:~# apt-cdrom add
-
-#. Masukkan cd installer kemudian ketikkan perintah berikut::
-
-    debian:~# apt-get install namapaket
-

@@ -9,3 +9,5 @@ Manajemen paket
    paket/biner
    paket/dpkg
    paket/apt-get
+   paket/dselect
+   paket/synaptic

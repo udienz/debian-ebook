@@ -6,6 +6,12 @@ oleh Ian Murdock. Nama Debian ini diambil dari penyatuan dua nama yakni
 Debra dan Ian Murdock. Debra adalah istri Ian Murdock – sang pembuat distro
 Debian GNU/linux.
 
+.. figure:: ../images/pendahuluan/debian-logo.jpg
+    :figclass: align-center
+    :align: center
+
+    Logo Debian
+   
 Sistem Debian sekarang ini menggunakan kernel `Linux <http://www.kernel.org/>`_
 dan kernel `FreeBSD <http://www.freebsd.org/>`_. Linux adalah bagian dari 
 perangkat lunak yang dimulai oleh `Linus Torvalds <http://www.cs.helsinki.fi/u/torvalds/>`_
@@ -295,6 +301,7 @@ Di Indonesia, terdapat banyak cermin CD Debian seperti:
 - Kambing UI, http://kambing.ui.ac.id/iso/debian/
 - Datautama, http://kartolo.sby.datautama.net.id/debian-cd/
 
+.. [#] http://www.debian.org/logos/
 .. [#] http://www.debian.org/intro/about
 .. [#] http://www.debian.org/News/2011/20110205a
 .. [#] http://en.wikipedia.org/wiki/File:Debian-package-cycl.svg
