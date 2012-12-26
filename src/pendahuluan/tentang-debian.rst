@@ -10,7 +10,7 @@ Debian GNU/linux.
     :figclass: align-center
     :align: center
 
-    Logo Debian [#]_
+    Logo Debian
    
 Sistem Debian sekarang ini menggunakan kernel `Linux <http://www.kernel.org/>`_
 dan kernel `FreeBSD <http://www.freebsd.org/>`_. Linux adalah bagian dari 

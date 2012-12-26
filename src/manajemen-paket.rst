@@ -10,3 +10,4 @@ Manajemen paket
    paket/dpkg
    paket/apt-get
    paket/dselect
+   paket/synaptic

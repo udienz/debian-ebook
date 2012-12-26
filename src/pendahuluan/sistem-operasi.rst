@@ -85,7 +85,7 @@ pemakaian sumber daya CPU ke tugas tersebut.
 .. figure:: ../images/pendahuluan/tux.png
     :align: center
 
-    Tux sebagai logo Linux [#]_
+    Tux sebagai logo Linux
 
 Salah satu keunggulan dari sistem operasi multitasking adalah kemampuan dari
 sistem operasi tersebut untuk dapat menjalankan tugas-tugas yang berbeda
@@ -112,7 +112,7 @@ General Public License (GPL).
 .. figure:: ../images/pendahuluan/rms.jpeg
     :align: center
 
-    RMS dalam sampul *Free as Freedom* [#]_
+    RMS dalam sampul *Free as Freedom*
 
 Proyek GNU yang diciptakan oleh Richard Stallman antara lain: teks editor
 Emacs, debugger GDB, kompiler GNU (GCC) yang saat ini telah mendukung
@@ -168,7 +168,7 @@ kakek.
 .. figure:: ../images/pendahuluan/linus.jpeg
     :align: center
 
-    Linus Trovalds [#]_
+    Linus Trovalds
 
 Tahun 1991 Torvalds tercatat sebagai mahasiswa ilmu komputer di University
 of Helsinki, Finland. Di tahun yang sama Torvalds membeli sebuah komputer
