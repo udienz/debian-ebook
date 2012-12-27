@@ -1,5 +1,5 @@
-debian-ebook
-============
+Debian GNU/Linux 7th Edition
+============================
 
 Ebook debian dalam bahasa indonesia, ebook ini pertama kali dipublikasikan
 oleh Askari Azikin dan ditulis ulang lagi oleh Tim Debian Indonesia. (sudah
@@ -54,6 +54,11 @@ Untuk melihat hasil keluaran, bisa mengetikkan::
 
 	make html
 	make latexpdf
+	make epub
+
+Untuk menghapus hasil keluaran, bisa mengetikkan::
+
+	make clean
 
 Masukan dan patch selalu diterima.
 Terimakasih!
