@@ -39,8 +39,11 @@ mode akses tersebut, yaitu:
 Berikut rincian penjelasan mode akses dan hak akses terhadap sebuah file atau
 direktori GNU/Linux.
 
-.. image:: ../images/hak-akses.png
-	:alt: Pemilik, Hak akses dan group
+.. figure:: ../images/hak-akses.png
+    	:align: center
+    	:figclass: align-center
+
+	Pemilik, Hak akses dan group
 
 Hak akses terhadap file juga dapat dikonversikan ke dalam bilangan biner dan
 desimal seperti yang tampak pada tabel berikut.
@@ -62,8 +65,13 @@ Berikut aturan konversi hak akses *owner, group, dan other* dari huruf ke
 bilangan biner dan desimal. Konversi ini nantinya akan berguna saat manajemen
 user pada bab selanjutnya.
 
-.. image:: ../images/konversi-hak-akses.png
-
+.. figure:: ../images/konversi-hak-akses.png
+    	:align: center
+    	:figclass: align-center
+    	
+    	Konversi hak akses
+    	
+    	
 Berikut contoh kasus penerapan kepemilikan, hak akses, dan group pada sistem
 file GNU/Linux.
 

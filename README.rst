@@ -2,7 +2,7 @@ debian-ebook
 ============
 
 Ebook debian dalam bahasa indonesia, ebook ini pertama kali dipublikasikan
-oleh Askari Azikin dan ditulis ulang lagi oleh Mahyuddin Susanto. (sudah
+oleh Askari Azikin dan ditulis ulang lagi oleh Tim Debian Indonesia. (sudah
 mendapatkan ijin dari mas Kari)
 
 Tujuan dari penulisan ini adalah pengguna debian agar mendapatkan informasi
@@ -28,7 +28,7 @@ dan salin kedalam format reStructuredText.
 
 Untuk mengunduh silakan ketik::
 
-	git clone git://github.com/udienz/debian-ebook.git
+	git clone git://github.com/debian-id/debian-ebook.git
 
 Kemudian sunting dan lakukan permintaan merge.
 

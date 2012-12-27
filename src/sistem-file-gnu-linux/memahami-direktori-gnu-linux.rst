@@ -12,8 +12,12 @@ Di bawah direktori root (/) berisi sub direktori */bin, /boot, /dev, /etc, /home
 subdirektori yang telah disebutkan di atas, masih terdapat subdirektori lagi
 hingga berupa file saja.
 
-.. image:: ../images/hirarki-direktori.png
-	:alt: Hirakri direktori Debian GNU/Linux
+.. figure:: ../images/hirarki-direktori.png
+    	:align: center
+    	:figclass: align-center
+    	:alt: Sumber: debian GNU/linux
+    	
+    	Hirakri direktori Debian GNU/Linux
 
 Meskipun bukan sesuatu yang begitu penting untuk mengetahui isi seluruh
 direktori debian GNU/Linux, tapi merupakan hal yang sangat baik jika anda
@@ -117,24 +121,40 @@ dihadapkan dengan direktori */home/$user*. Pada start menu, klik Personal Files
 (home) selanjutnya akan muncul file manager seperti yang tampak pada gambar
 berikut.
 
-.. image:: ../images/start-menu-kde2.png
+.. figure:: ../images/start-menu-kde2.png
+    	:align: center
+    	:figclass: align-center
+    	
+    	Menu start KDE 4.8
 
 Atau dengan menekan Alt+F2 pada keyboard kemudian ketikkan home pada
 jendela dialog yang telah tersedia seperti pada gambar berikut.
 
-.. image:: ../images/run-command-kde2.png
+.. figure:: ../images/run-command-kde2.png
+    	:align: center
+    	:figclass: align-center
+    	
+    	Run Command KDE 4.8
 
 Selanjutnya akan muncul window *home/$user* seperti yang tampak pada gambar
 berikut.
 
-.. image:: ../images/konqueror-file-manager.png
-
+.. figure:: ../images/konqueror-file-manager.png
+    	:align: center
+    	:figclass: align-center
+    
+   	File Manager KDE
+    
 Hal ini juga berlaku jika anda membuka konsole GNU/Linux. Direktori yang
 pertama kali diakses adalah direktori *home/$user* seperti yang tampak pada
 jendela konsole berikut.
 
-.. image:: ../images/konsole-kde.png
-
+.. figure:: ../images/konsole-kde.png
+    	:align: center
+    	:figclass: align-center
+    	
+    	Konsole debian GNU/Linux
+    
 
 Menggunakan Perintah Find pada Desktop KDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -144,8 +164,11 @@ file yang anda cari di kolom [Named:], kemudian ubalah letak direktori tempat
 file tersebut berada dan klik option [Find] pada bagian kanan atas dari jendela
 Kfind.
 
-.. image:: ../images/kfind.png
-
+.. figure:: ../images/kfind.png
+    	:align: center
+    	:figclass: align-center
+    	
+    	Kfind KDE
 
 Menampilkan File dari Command Line
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
